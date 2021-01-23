@@ -5,3 +5,7 @@
  */
 
 // You can delete this file if you're not using it
+
+import '@fontsource/m-plus-rounded-1c/100.css';
+import '@fontsource/m-plus-rounded-1c/400.css';
+import '@fontsource/m-plus-rounded-1c/800.css';
