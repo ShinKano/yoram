@@ -50,28 +50,28 @@ class HomeIndex extends React.Component {
             </article>
             <article style={{ backgroundImage: `url(${pic03})` }}>
               <header className="major">
-                <h3>Magna</h3>
-                <p>Lorem etiam nullam</p>
+                <h3>日本チームの想い</h3>
+                <p>コロナ禍・ヨラム招聘の意味</p>
               </header>
               <Link to="/landing" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic04})` }}>
               <header className="major">
-                <h3>Ipsum</h3>
-                <p>Nisl sed aliquam</p>
+                <h3>Videos</h3>
+                <p>ヨラムのWS動画（日本語約付）</p>
               </header>
               <Link to="/landing" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic05})` }}>
               <header className="major">
-                <h3>Consequat</h3>
+                <h3>Consequat（未定）</h3>
                 <p>Ipsum dolor sit amet</p>
               </header>
               <Link to="/landing" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic06})` }}>
               <header className="major">
-                <h3>Etiam</h3>
+                <h3>Etiam（未定）</h3>
                 <p>Feugiat amet tempus</p>
               </header>
               <Link to="/landing" className="link primary"></Link>
@@ -80,7 +80,7 @@ class HomeIndex extends React.Component {
           <section id="two">
             <div className="inner">
               <header className="major">
-                <h2>Massa libero</h2>
+                <h2>ワークショップの概要とか？</h2>
               </header>
               <p>
                 Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
