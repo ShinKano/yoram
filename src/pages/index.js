@@ -30,7 +30,7 @@ class HomeIndex extends React.Component {
           <section id="one" className="tiles">
             <article style={{ backgroundImage: `url(${pic01})` }}>
               <header className="major">
-                <h3>東京2days</h3>
+                <h3>横浜 2days</h3>
                 <h4>7月31日・8月1日</h4>
                 <p>The Street Giraffe</p>
                 <p>誠実さと共感を磨く</p>
