@@ -5,21 +5,21 @@ const Banner = props => (
   <section id="banner" className="major">
     <div className="inner">
       <header className="major">
-        <h1>The Art of Onesty</h1>
+        <h1>The Art of Honesty</h1>
         <h2>
-          正直にあろうとするときに<SpanBlock>起こるジレンマ</SpanBlock>
+          正直であろうとするときに<SpanBlock>起こるジレンマ</SpanBlock>
         </h2>
       </header>
       <div className="content">
         <p>
-          A responsive site template designed by HTML5 UP
+          2021 ヨラム・モセンゾン初来日
           <br />
-          and released under the Creative Commons.
+          沖縄リトリート & 東京2daysワークショップ
         </p>
         <ul className="actions">
           <li>
             <a href="#one" className="button next scrolly">
-              Get Started
+              参加お申し込み
             </a>
           </li>
         </ul>
