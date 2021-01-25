@@ -1,4 +1,5 @@
 import React from 'react';
+import { COLORS } from '../styles';
 
 const Contact = props => (
   <section id="contact">
@@ -22,8 +23,8 @@ const Contact = props => (
                         <li><input type="reset" value="Clear" /></li>
                     </ul>
                 </form> */}
-        <header className="major">
-          <h2>申し込みについて？</h2>
+        <header className="sub">
+          <h2>お申し込みについて</h2>
         </header>
         <p>
           申し込みの際の注意とか諸々...Nullam et orci eu lorem consequat

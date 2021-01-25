@@ -58,6 +58,55 @@ header {
     }
   }
 
+  // 背景が白系の場合
+  &.sub {
+    width: -moz-max-content;
+    width: -webkit-max-content;
+    width: -ms-max-content;
+    width: max-content;
+    margin-bottom: _size(element-margin);
+
+    > :first-child {
+      margin-bottom: 0;
+      width: calc(100% + 0.5em);
+
+      &:after {
+        content: '';
+        background-color: _palette(bg-alt);
+        display: block;
+        height: 2px;
+        margin: 0.325em 0 0.5em 0;
+        width: 100%;
+      }
+    }
+
+    > h2 {
+      color: _palette(bg-alt);
+    }
+    > p {
+      font-size: 0.7em;
+      font-weight: _font(weight-bold);
+      letter-spacing: _font(letter-spacing-alt);
+      color: _palette(bg-alt);
+      margin-bottom: 0;
+      text-transform: uppercase;
+    }
+
+    body.is-ie & {
+      > :first-child {
+        &:after {
+          max-width: 9em;
+        }
+      }
+
+      > h1 {
+        &:after {
+          max-width: 100% !important;
+        }
+      }
+    }
+  }
+
   @include breakpoint(small) {
     &.major {
       > p {
