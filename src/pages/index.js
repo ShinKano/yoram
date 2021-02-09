@@ -63,7 +63,7 @@ class HomeIndex extends React.Component {
                 <p>The Street Giraffe</p>
                 <p>誠実さと共感を磨く</p>
               </header>
-              <Link to="/landing" className="link primary"></Link>
+              <Link to="/yokohama" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic02})` }}>
               <header className="major">
@@ -74,7 +74,7 @@ class HomeIndex extends React.Component {
                   正直であろうとするときに<SpanBlock>起こるジレンマ</SpanBlock>
                 </p>
               </header>
-              <Link to="/landing" className="link primary"></Link>
+              <Link to="/okinawa" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic03})` }}>
               <header className="major">
