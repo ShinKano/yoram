@@ -8,6 +8,7 @@ import { SpanBlock } from '../utils/components';
 import pic08 from '../assets/images/pic08.jpg';
 import pic09 from '../assets/images/pic09.jpg';
 import pic10 from '../assets/images/pic10.jpg';
+import pic12 from '../assets/images/pic12.jpg';
 
 const Landing = props => (
   <Layout>
@@ -76,7 +77,7 @@ const Landing = props => (
       <section id="two" className="spotlights">
         <section>
           <Link className="image">
-            <img src={pic08} alt="" />
+            <img src={pic12} alt="" />
           </Link>
           <div className="content">
             <div className="inner">

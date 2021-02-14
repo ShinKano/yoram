@@ -4,7 +4,9 @@ import Helmet from 'react-helmet';
 import Layout from '../components/layout';
 import BannerLanding from '../components/BannerLanding';
 
-import pic08 from '../assets/images/pic08.jpg';
+import okinawa01 from '../assets/images/okinawa01.jpg';
+import okinawa02 from '../assets/images/okinawa02.jpg';
+import pic12 from '../assets/images/pic12.jpg';
 import pic09 from '../assets/images/pic09.jpg';
 import pic10 from '../assets/images/pic10.jpg';
 import { SpanBlock } from '../utils/components';
@@ -61,7 +63,7 @@ const Landing = props => (
       <section id="two" className="spotlights">
         <section>
           <Link className="image">
-            <img src={pic08} alt="" />
+            <img src={pic12} alt="" />
           </Link>
           <div className="content">
             <div className="inner">
@@ -116,7 +118,7 @@ const Landing = props => (
         </section>
         <section>
           <Link className="image">
-            <img src={pic10} alt="" />
+            <img src={okinawa01} alt="" />
           </Link>
           <div className="content">
             <div className="inner">
@@ -173,7 +175,7 @@ const Landing = props => (
         </section>
         <section>
           <Link className="image">
-            <img src={pic10} alt="" />
+            <img src={okinawa02} alt="" />
           </Link>
           <div className="content">
             <div className="inner">
