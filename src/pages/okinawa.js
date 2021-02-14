@@ -120,9 +120,9 @@ const Landing = props => (
           </Link>
           <div className="content">
             <div className="inner">
-              {/* <header className="major"> */}
-              <h3>会場・アクセス</h3>
-              {/* </header> */}
+              <header className="major">
+                <h3>会場・アクセス</h3>
+              </header>
               <h4>ネイチャーみらい館（沖縄県国頭郡金武町）</h4>
               <p>
                 集合: 7月22日（14時現地集合）
@@ -150,9 +150,9 @@ const Landing = props => (
           </Link>
           <div className="content">
             <div className="inner">
-              {/* <header className="major"> */}
-              <h3>費用について</h3>
-              {/* </header> */}
+              <header className="major">
+                <h3>費用について</h3>
+              </header>
               <p>
                 参加費：16万5千円（講座料金・通訳料・宿泊費・食費*込み）
                 <br />
@@ -177,9 +177,9 @@ const Landing = props => (
           </Link>
           <div className="content">
             <div className="inner">
-              {/* <header className="major"> */}
-              <h3>田んぼ泥んこ体験</h3>
-              {/* </header> */}
+              <header className="major">
+                <h3>田んぼ泥んこ体験</h3>
+              </header>
               <p>
                 2日目または3日目に「田んぼ泥んこ体験」を開催予定！田植えはしませんが（笑）
                 <br />

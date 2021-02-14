@@ -38,7 +38,7 @@ const Landing = props => (
           <div
             style={{
               display: 'grid',
-              gridTemplateColumns: '128px auto',
+              gridTemplateColumns: '138px auto',
             }}
           >
             <div>古典的キリン：</div>
@@ -119,12 +119,8 @@ const Landing = props => (
               <header className="major">
                 <h3>会場・アクセス</h3>
               </header>
-              <h4>ウィリング横浜</h4>
-              <p>
-                住所: 神奈川県横浜市港南区上大岡西1丁目6-1
-                <br />
-                定員: 35名
-              </p>
+              <h4>ウィリング横浜（神奈川県横浜市港南区）</h4>
+
               <p>時間: 10am ～18pm （途中ランチ休憩含む）</p>
               <ul className="actions">
                 <li>
@@ -149,7 +145,11 @@ const Landing = props => (
                 <h3>費用について</h3>
               </header>
               <p>参加費：6万円</p>
-              <p>早割：？月？日お申込みまで5万5千円</p>
+              <p>
+                早割：？月？日お申込みまで5万5千円
+                <br />
+                定員：35名
+              </p>
             </div>
           </div>
         </section>
