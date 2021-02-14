@@ -120,27 +120,27 @@ const Landing = props => (
           </Link>
           <div className="content">
             <div className="inner">
-              <header className="major">
-                <h3>会場・アクセス</h3>
-              </header>
-              <h4>ネイチャーみらい館</h4>
+              {/* <header className="major"> */}
+              <h3>会場・アクセス</h3>
+              {/* </header> */}
+              <h4>ネイチャーみらい館（沖縄県国頭郡金武町）</h4>
               <p>
-                住所: 沖縄県国頭郡金武町金武11818-2
+                集合: 7月22日（14時現地集合）
                 <br />
-                定員: 30名
+                解散: 7月25日（15時現地解散）
               </p>
               <p>
-                ※7/22に那覇空港から会場まで送迎バスがご利用できます。
+                ※7/22・7/25に空港←→会場まで送迎バスがご利用できます。
                 <br />
                 （事前申込み必要 / 詳細は「費用について」をご覧ください）
               </p>
-              <ul className="actions">
+              {/* <ul className="actions">
                 <li>
                   <Link to="https://www.nature-kin.com/" className="button">
                     公式サイトへ
                   </Link>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </section>
@@ -150,20 +150,23 @@ const Landing = props => (
           </Link>
           <div className="content">
             <div className="inner">
-              <header className="major">
-                <h3>費用について</h3>
-              </header>
+              {/* <header className="major"> */}
+              <h3>費用について</h3>
+              {/* </header> */}
               <p>
                 参加費：16万5千円（講座料金・通訳料・宿泊費・食費*込み）
                 <br />
                 *食費（1日目夕食、2日目.3日目:朝昼夕食、4日目:朝昼食）
               </p>
-              <p>早割：？月？日お申込みまで15万5千円</p>
-
+              <p>
+                早割：？月？日お申込みまで15万5千円
+                <br />
+                定員: 30名
+              </p>
               <p>
                 那覇空港 → 会場送迎バス: 1000円/片道
                 <br />
-                （定員30名 / 当日那覇空港12時出発 / 事前申込み必要）
+                （定員30名 / 当日那覇空港12時出発 / 事前申込み必要)
               </p>
             </div>
           </div>
@@ -174,9 +177,9 @@ const Landing = props => (
           </Link>
           <div className="content">
             <div className="inner">
-              <header className="major">
-                <h3>田んぼ泥んこ体験</h3>
-              </header>
+              {/* <header className="major"> */}
+              <h3>田んぼ泥んこ体験</h3>
+              {/* </header> */}
               <p>
                 2日目または3日目に「田んぼ泥んこ体験」を開催予定！田植えはしませんが（笑）
                 <br />

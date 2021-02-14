@@ -125,6 +125,7 @@ const Landing = props => (
                 <br />
                 定員: 35名
               </p>
+              <p>時間: 10am ～18pm （途中ランチ休憩含む）</p>
               <ul className="actions">
                 <li>
                   <Link
