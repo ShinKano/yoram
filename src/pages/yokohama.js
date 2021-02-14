@@ -3,6 +3,7 @@ import { Link } from 'gatsby';
 import Helmet from 'react-helmet';
 import Layout from '../components/layout';
 import BannerLanding from '../components/BannerLanding';
+import { SpanBlock } from '../utils/components';
 
 import pic08 from '../assets/images/pic08.jpg';
 import pic09 from '../assets/images/pic09.jpg';
@@ -27,8 +28,48 @@ const Landing = props => (
           <header className="major">
             <h2>7月31日・8月1日</h2>
           </header>
+          <h4>
+            古典的キリンから
+            <SpanBlock>ストリート・ジラフへ</SpanBlock>
+          </h4>
           <p>
-            ２日間を通して、「誠実さと共感を磨く」をテーマに...概要の文章が入ります概要の文章が入ります概要の文章が入ります概要の文章が入ります概要の文章が入ります概要の文章が入ります概要の文章が入ります。
+            NVCを学び始めると最初に、僕が「古典的キリン」と呼んでいるものを学ぶだろう。その言葉遣いがつながりを作るのに必ずしも役に立たないことに気づいたんじゃないかな。
+          </p>
+          <div
+            style={{
+              display: 'grid',
+              gridTemplateColumns: '128px auto',
+            }}
+          >
+            <div>古典的キリン：</div>
+            <div>「つながりを必要としていますか？」</div>
+
+            <div>ジャッカル：</div>
+            <div>
+              「はあ？別に必要なんかないよ、ニーズ、ニーズばかり言うのはよしてくれ！」
+            </div>
+            <div>古典的キリン：</div>
+            <div>「私は苛立ちを感じていて、自由のニーズがあります」</div>
+
+            <div>ジャッカル：</div>
+            <div>
+              「いつも自分のことばっかり！NVCを始めてから自分勝手になったよね！」
+            </div>
+            <div>古典的キリン：</div>
+            <div>
+              「あなたが喜びからそうしたいと感じるなら、お皿を洗って欲しいという望みがある」
+            </div>
+
+            <div>ジャッカル：</div>
+            <div>「お願いだからロボットみたいな話し方やめてくれない？」</div>
+          </div>
+          <p>
+            <br />
+            古典的キリンは自分の内側にしっかりと持つ意識であって、日常生活のことばじゃない。
+            <br />
+            ストリート・ジラフは、それぞれの人の、それぞれの状況に合った言葉を探している。自分の価値観に忠実でありながら、つながりを生み出すためにはどうすればいいのかを模索していく繊細なアートなんだ。
+            <br />
+            このワークショップでは、「ストリート・ジラフ」語を話す際の原則と実践に焦点を当て、「ストリート・ジラフ」語を流暢に話すための練習をする。
           </p>
         </div>
       </section>
@@ -42,38 +83,30 @@ const Landing = props => (
               <header className="major">
                 <h3>誠実さと共感を磨く</h3>
               </header>
+
+              <h4>共感のスキルを磨く</h4>
               <p>
-                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-                magna sed nunc rhoncus condimentum sem. In efficitur ligula tate
-                urna. Maecenas massa sed magna lacinia magna pellentesque lorem
-                ipsum dolor. Nullam et orci eu lorem consequat tincidunt.
-                Vivamus et sagittis tempus.
+                家庭・職場・子育てなど、あらゆる状況で、様々な状態の人々にどのように共感を届けるか？
+                （怒り、憂鬱、距離感...など）
+                つながり、協力、創造性と愛を生み出すようなやり方で、自分そして相手の本物さにしっかりと立つには？
               </p>
-              {/* <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn more
-                  </Link>
-                </li>
-              </ul> */}
             </div>
           </div>
         </section>
         <section>
           <Link className="image">
-            <img src={pic09} alt="" />
+            <img src={pic08} alt="" />
           </Link>
           <div className="content">
             <div className="inner">
               <header className="major">
-                <h3>費用・料金</h3>
+                <h3>頭ではなく、体と心で話す。</h3>
               </header>
               <p>
-                料金についての説明料金についての説明料金についての説明料金についての説明
+                「正直さ」はあなたにとって最も壊れやすく、脆い部分かもしれません。それゆえ時に鋭く、刃のように誰かを傷つけてしまうことさえあります。
                 <br />
-                料金についての説明料金についての説明料金についての説明料金についての説明
+                正直さのスキルを磨くことは、決して理性で刃を隠すことではありません。誰もが抱える美しい「正直さ」をどうやって伝えればよいでしょう？
               </p>
-              <p>２日合計: 〇〇円（税込）</p>
             </div>
           </div>
         </section>
@@ -84,20 +117,38 @@ const Landing = props => (
           <div className="content">
             <div className="inner">
               <header className="major">
-                <h3>会場アクセス</h3>
+                <h3>会場・アクセス</h3>
               </header>
-              <p>住所: 神奈川県横浜市神奈川県横浜市神奈川県横浜市</p>
-              <p>電話番号: 1234-56-7890</p>
+              <h4>ウィリング横浜</h4>
+              <p>
+                住所: 神奈川県横浜市港南区上大岡西1丁目6-1
+                <br />
+                定員: 35名
+              </p>
               <ul className="actions">
                 <li>
                   <Link
-                    to="https://goo.gl/maps/GJC15SHBi9CtmP2M6"
+                    to="http://www.yokohamashakyo.jp/willing/index.html"
                     className="button"
                   >
-                    地図をみる
+                    公式サイトへ
                   </Link>
                 </li>
               </ul>
+            </div>
+          </div>
+        </section>
+        <section>
+          <Link className="image">
+            <img src={pic09} alt="" />
+          </Link>
+          <div className="content">
+            <div className="inner">
+              <header className="major">
+                <h3>費用について</h3>
+              </header>
+              <p>参加費：6万円</p>
+              <p>早割：？月？日お申込みまで5万5千円</p>
             </div>
           </div>
         </section>

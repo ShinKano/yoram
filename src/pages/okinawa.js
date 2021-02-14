@@ -165,16 +165,6 @@ const Landing = props => (
                 <br />
                 （定員30名 / 当日那覇空港12時出発 / 事前申込み必要）
               </p>
-              {/* <ul className="actions">
-                <li>
-                  <Link
-                    to="https://goo.gl/maps/GJC15SHBi9CtmP2M6"
-                    className="button"
-                  >
-                    地図をみる
-                  </Link>
-                </li>
-              </ul> */}
             </div>
           </div>
         </section>
