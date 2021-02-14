@@ -24,17 +24,40 @@ const Contact = props => (
                     </ul>
                 </form> */}
         <header className="sub">
-          <h2>お申し込みについて</h2>
+          <h2>お申し込みの流れ</h2>
         </header>
-        <p>
-          申し込みの際の注意とか諸々...Nullam et orci eu lorem consequat
-          tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed
-          nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur
-          ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque
-          lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt.
-          Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc
-          rhoncus amet pharetra et feugiat tempus.
-        </p>
+        <ol>
+          <li>
+            <span style={{ textDecorationLine: 'underline' }}>
+              申込みフォーム送信:
+            </span>
+            <br />
+            送信後、自動返信メールが届きます。この時点ではまだ申し込み確定しておりません
+          </li>
+          <br />
+          <li>
+            <span style={{ textDecorationLine: 'underline' }}>
+              ご予約金のお振込み:
+            </span>
+            <br />
+            申し込みフォーム送信後、1週間以内に予約金（沖縄2万円、横浜1万円）を指定口座にお振込みください。ご入金が確認できた順に予約確定となります。
+          </li>
+          <br />
+          <li>
+            <span style={{ textDecorationLine: 'underline' }}>
+              予約確定メールのお届け:
+            </span>
+            <br />
+            予約確定後、２日以内に予約確定メールを送信いたします。
+          </li>
+          <br />
+          <li>
+            <span style={{ textDecorationLine: 'underline' }}>
+              残金のお支払い: <br />
+            </span>
+            5月連休後のコロナの状況により、現地開催が決定した場合の、もしくはオンライン開催となった場合の残金のお支払い案内をメールにてご連絡いたします。お支払いが確認できた後、最終予約確認メールを送信いたしますので、それをもって正式なお席の確保といたします。
+          </li>
+        </ol>
       </section>
       <section className="split">
         <section>
@@ -74,6 +97,17 @@ const Contact = props => (
             >
               お問い合わせフォームはコチラ
             </a>
+            <br />
+            <br />
+            <p>
+              ＊自動返信・確定メールが届かない場合
+              <br />
+              email:　sakonakama@gmail.com
+              <br />
+              TEL: 090-1944-0681（仲間）
+              <br />
+              までお問合せください。
+            </p>
           </div>
         </section>
       </section>
