@@ -38,21 +38,21 @@ class HomeIndex extends React.Component {
               </header>
               <p>
                 NVCグローバルフェスでも大きな話題となったアムステルダム在住CNVCトレーナーのヨラム・モセンゾンが初来日します。
-                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-                libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-                Pellentesque condimentum sem. In efficitur ligula tate urna.
-                Maecenas laoreet massa vel lacinia pellentesque lorem ipsum
-                dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et
-                sagittis libero. Mauris aliquet magna magna sed nunc rhoncus
-                amet pharetra et feugiat tempus.
+                <br />
+                イスラエル生まれ、オランダ・アムステルダム在住で元ダンサー・パフォーマー・振付師という経歴をもつ彼は、
+                約20年前にNVCと出逢ってからその学びと共有に情熱を注いできました。
+                <br />
+                <br />
+                2008年に全ての芸術活動を辞め、NVCをシェアし体現することに専念。
+                ヨラムが目指しているのは、彼自身を含めた個々人が、選択と内なる明晰さから行動できるようになることです。
+                ヨーロッパ各地で英語、フランス語、ヘブライ語のワークショップを開催し、非暴力コミュニケーション国際センター（CNVC）のミッションをサポートしています。
+                アムステルダムでは0歳～21歳までの子供・若者を対象にしているNVCを土台にした学校LIFE！発起人の1人として現在も活躍中です。
               </p>
-              {/* <ul className="actions">
-                <li>
-                  <Link to="/landing" className="button next">
-                    Get Started
-                  </Link>
-                </li>
-              </ul> */}
+              {/* <h4>リトリート・ワークショップで実践すること</h4>
+              <p>
+                インタラクティブで安全な環境のなか、参加者は自分自身の生活の中で起こるシチュエーションをワークの中で取り組むよう誘われます。
+                WSではデモやロールプレイング、数々エクササイズを通して、NVCの価値観と表現方法を実際の暮らしの中に融合できるよう練習します。
+              </p> */}
             </div>
           </section>
           <section id="one" className="tiles">
