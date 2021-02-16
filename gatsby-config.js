@@ -18,18 +18,9 @@ module.exports = {
         icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `M PLUS Rounded 1c`,
-            // variants: [`400`, `700`],
-          },
-        ],
-      },
-    },
+
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
+    'gatsby-plugin-preload-fonts',
   ],
 };

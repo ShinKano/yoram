@@ -25,6 +25,11 @@ const Videos = props => (
           <h3>
             ヨラム・モセンゾンがこれまでに行ったワークショップや講演の動画集です。
           </h3>
+          <p>
+            参加要件のひとつとして「short introduction to Non Violent
+            Communication」または「Vulnerable
+            honesty」の動画をご覧いただくことが挙げられています。どうぞ楽しんで！
+          </p>
           <p>全て日本語字幕付きです。YouTubeの設定からご利用ください。</p>
 
           <section>
@@ -49,6 +54,23 @@ const Videos = props => (
 
           <section>
             <a
+              href="https://www.youtube.com/watch?v=LSGfqyhleUA&feature=youtu.be"
+              target="_blank"
+              className="image main"
+            >
+              <img
+                src={video02}
+                alt="Vulnerable honesty | Yoram Mosenzon | TEDxAmsterdamED"
+              />
+            </a>
+            <h3>Vulnerable honesty | Yoram Mosenzon | TEDxAmsterdamED</h3>
+            <p>
+              アムステルダムで行われたTEDxでの講演です。簡潔にNVCのコンセプトを説明しています。
+            </p>
+          </section>
+
+          <section>
+            <a
               href="https://www.youtube.com/watch?app=desktop&v=KX_tgRM84RA&feature=share"
               target="_blank"
               className="image main"
@@ -64,23 +86,6 @@ const Videos = props => (
             </h3>
             <p>
               トルコ・イスタンブールで行われたワークショップです。2時間半の動画ですが全編日本語字幕が利用できます。
-            </p>
-          </section>
-
-          <section>
-            <a
-              href="https://www.youtube.com/watch?v=LSGfqyhleUA&feature=youtu.be"
-              target="_blank"
-              className="image main"
-            >
-              <img
-                src={video02}
-                alt="Vulnerable honesty | Yoram Mosenzon | TEDxAmsterdamED"
-              />
-            </a>
-            <h3>Vulnerable honesty | Yoram Mosenzon | TEDxAmsterdamED</h3>
-            <p>
-              アムステルダムで行われたTEDxでの講演です。簡潔にNVCのコンセプトを説明しています。
             </p>
           </section>
 
