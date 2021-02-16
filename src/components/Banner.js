@@ -14,7 +14,7 @@ const Banner = props => (
         <p>
           2021 ヨラム・モセンゾン初来日
           <br />
-          <SpanBlock>沖縄リトリート & 東京2daysワークショップ</SpanBlock>
+          <SpanBlock>沖縄リトリート & 横浜2daysワークショップ</SpanBlock>
         </p>
         <ul className="actions">
           <li>
