@@ -35,7 +35,7 @@ class HomeIndex extends React.Component {
               </div>
               <header className="major">
                 <h2>
-                  <span style={{ fontSize: '16px' }}>CNVCトレーナー </span>
+                  <span style={{ fontSize: '16px' }}>CNVCトレーナー</span>
                   ヨラムが初来日！
                 </h2>
               </header>
