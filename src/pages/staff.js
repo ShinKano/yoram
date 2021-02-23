@@ -44,12 +44,16 @@ const Elements = props => (
             </div>
           </section>
 
-          <hr className="major" />
-          <h2>通訳</h2>
-
+          {/* <hr className="major" /> */}
+          <h2>通訳・翻訳</h2>
           <section className="grid-wrapper">
+            <div className="col-3">
+              <span className="image fit">
+                <img src={pic03} alt="" />
+              </span>
+            </div>
             <div className="col-9">
-              <h3>ゆうこ後藤</h3>
+              <h3>後藤ゆうこ</h3>
               <p>
                 In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim
                 aliquet. Accumsan ac integer lobortis commodo ornare aliquet
@@ -59,11 +63,6 @@ const Elements = props => (
                 nascetur lacus ac interdum morbi accumsan vis mi accumsan ac
                 praesent.
               </p>
-            </div>
-            <div className="col-3">
-              <span className="image fit">
-                <img src={pic03} alt="" />
-              </span>
             </div>
           </section>
 
