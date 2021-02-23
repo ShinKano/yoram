@@ -121,9 +121,8 @@ const Landing = props => (
                 <h3>会場・アクセス</h3>
               </header>
               <h4>ウィリング横浜（神奈川県横浜市港南区）</h4>
-
               <p>時間: 10am ～18pm （途中ランチ休憩含む）</p>
-              <ul className="actions">
+              {/* <ul className="actions">
                 <li>
                   <Link
                     to="http://www.yokohamashakyo.jp/willing/index.html"
@@ -132,7 +131,8 @@ const Landing = props => (
                     公式サイトへ
                   </Link>
                 </li>
-              </ul>
+              </ul> */}
+              <p>※会場への直接のお問合せはご遠慮ください。</p>
             </div>
           </div>
         </section>
@@ -145,6 +145,7 @@ const Landing = props => (
               <header className="major">
                 <h3>費用について</h3>
               </header>
+              <h4>オンライン開催の場合、変動する可能性がございます</h4>
               <p>参加費：6万円</p>
               <p>
                 早割：？月？日お申込みまで5万5千円

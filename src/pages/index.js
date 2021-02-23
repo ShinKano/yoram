@@ -81,31 +81,31 @@ class HomeIndex extends React.Component {
             </article>
             <article style={{ backgroundImage: `url(${pic03})` }}>
               <header className="major">
-                <h3>日本チームの想い</h3>
-                <p>コロナ禍・ヨラム招聘の意味</p>
+                <h3>お誘い文に代えて</h3>
+                <p>サブタイトルあれば</p>
               </header>
               <Link to="/landing" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic04})` }}>
               <header className="major">
-                <h3>Videos</h3>
+                <h3>動画リンク集</h3>
                 <p>ヨラムのWS動画（日本語約付）</p>
               </header>
               <Link to="/videos" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic05})` }}>
               <header className="major">
-                <h3>準備中...</h3>
+                <h3>参加要件</h3>
                 <p>Ipsum dolor sit amet</p>
               </header>
-              <Link to="/landing" className="link primary"></Link>
+              <Link to="/requirements" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic06})` }}>
               <header className="major">
-                <h3>準備中...</h3>
-                <p>Feugiat amet tempus</p>
+                <h3>スタッフ</h3>
+                <p>ヨラム招聘チームの紹介</p>
               </header>
-              <Link to="/landing" className="link primary"></Link>
+              <Link to="/staff" className="link primary"></Link>
             </article>
           </section>
         </div>
