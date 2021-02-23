@@ -21,6 +21,26 @@ const Menu = props => (
             横浜2Days
           </Link>
         </li>
+        <li>
+          <Link onClick={props.onToggleMenu} to="/osasoi">
+            お誘い文に代えて
+          </Link>
+        </li>
+        <li>
+          <Link onClick={props.onToggleMenu} to="/requirements">
+            参加要件
+          </Link>
+        </li>
+        <li>
+          <Link onClick={props.onToggleMenu} to="/videos">
+            動画リンク集
+          </Link>
+        </li>
+        <li>
+          <Link onClick={props.onToggleMenu} to="/staff">
+            スタッフ
+          </Link>
+        </li>
       </ul>
       {/* <ul className="actions vertical">
         <li>
