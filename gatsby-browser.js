@@ -8,4 +8,4 @@
 
 import '@fontsource/m-plus-rounded-1c/300.css';
 // import '@fontsource/m-plus-rounded-1c/400.css';
-import '@fontsource/m-plus-rounded-1c/700.css';
+// import '@fontsource/m-plus-rounded-1c/700.css';
