@@ -5,7 +5,10 @@ const Footer = props => (
     <div className="inner">
       <ul className="icons">
         <li>
-          <a href="#" className="icon alt fa-facebook">
+          <a
+            href="https://m.facebook.com/groups/766557293841292"
+            className="icon alt fa-facebook"
+          >
             <span className="label">Facebook</span>
           </a>
         </li>
