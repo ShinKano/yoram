@@ -105,8 +105,8 @@ class HomeIndex extends React.Component {
                 <h3>スタッフ</h3>
                 <p>ヨラム招聘チームの紹介</p>
               </header>
-              {/* <Link to="/staff" className="link primary"></Link> */}
-              <Link to="/elements" className="link primary"></Link>
+              <Link to="/staff" className="link primary"></Link>
+              {/* <Link to="/elements" className="link primary"></Link> */}
             </article>
           </section>
         </div>
