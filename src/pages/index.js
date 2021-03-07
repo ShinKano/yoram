@@ -81,10 +81,10 @@ class HomeIndex extends React.Component {
             </article>
             <article style={{ backgroundImage: `url(${pic03})` }}>
               <header className="major">
-                <h3>お誘い文に代えて</h3>
-                <p>サブタイトルあれば</p>
+                <h3>お誘いに代えて</h3>
+                {/* <p>サブタイトルあれば</p> */}
               </header>
-              <Link to="/landing" className="link primary"></Link>
+              <Link to="/invitation" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic04})` }}>
               <header className="major">
@@ -105,7 +105,8 @@ class HomeIndex extends React.Component {
                 <h3>スタッフ</h3>
                 <p>ヨラム招聘チームの紹介</p>
               </header>
-              <Link to="/staff" className="link primary"></Link>
+              {/* <Link to="/staff" className="link primary"></Link> */}
+              <Link to="/elements" className="link primary"></Link>
             </article>
           </section>
         </div>

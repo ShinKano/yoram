@@ -107,8 +107,6 @@ const Contact = props => (
               <br />
               email:　sakonakama@gmail.com
               <br />
-              TEL: 090-1944-0681（仲間）
-              <br />
               までお問合せください。
             </p>
           </div>
