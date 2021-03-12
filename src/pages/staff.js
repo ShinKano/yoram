@@ -10,6 +10,7 @@ import pic05 from '../assets/images/staff5.jpg';
 import pic06 from '../assets/images/staff6.jpg';
 import pic07 from '../assets/images/staff7.jpg';
 import pic08 from '../assets/images/staff8.png';
+import pic09 from '../assets/images/staff9.jpg';
 
 const Elements = props => (
   <Layout>
@@ -32,38 +33,40 @@ const Elements = props => (
           <hr className="major" />
           <h2>通訳</h2>
           <section className="grid-wrapper">
-            <div className="col-3">
-              <span className="image fit">
-                <img src={pic08} alt="Yuko Goto" />
-              </span>
-            </div>
-            <div className="col-9">
-              <h3>後藤ゆう子 (Yuko Goto)</h3>
-              <p>
-                サンディエゴ州立大学卒。2016年に日本人初のNVC認定トレーナーとなる。国内外でNVCを伝えながら、海外トレーナーとのコラボを手がけ、NVC国際集中トレーニングのオーガナイズ、アシスタントトレーナーも務める。NVC大学設立メンバーの1人としての年間プログラムの講師を務める。NVCをベースにした調停でのカップルセッションを提供。
-                最先端の脳科学を融合したファミリーコンステレーション、内的家族システム(IFS)とNVCを融合した深い癒しや統合がテーマのワークショップや個人セッションも提供中。
-              </p>
-            </div>
+            <section className="col-5">
+              <div className="col-3">
+                <span className="image fit">
+                  <img src={pic08} alt="Yuko Goto" />
+                </span>
+              </div>
+              <div className="col-9">
+                <h3>後藤ゆう子 (Yuko Goto)</h3>
+                <p>
+                  サンディエゴ州立大学卒。2016年に日本人初のNVC認定トレーナーとなる。国内外でNVCを伝えながら、海外トレーナーとのコラボを手がけ、NVC国際集中トレーニングのオーガナイズ、アシスタントトレーナーも務める。NVC大学設立メンバーの1人としての年間プログラムの講師を務める。NVCをベースにした調停でのカップルセッションを提供。
+                  最先端の脳科学を融合したファミリーコンステレーション、内的家族システム(IFS)とNVCを融合した深い癒しや統合がテーマのワークショップや個人セッションも提供中。
+                </p>
+              </div>
+            </section>
+            <div className="col-2" />
+            {/* <br className="col-2" /> */}
+            <section className="col-5">
+              <div className="col-3">
+                <span className="image fit">
+                  <img src={pic07} alt="Makiko Imai" />
+                </span>
+              </div>
+              <div className="col-9">
+                <h3>今井麻希子 (Makiko Imai)</h3>
+                <p>
+                  国際基督教大学卒。民間企業で人事やコンサルティングなどに従事したのち独立。生物多様性の国際会議への参加をきっかけにNGO活動に参画、サスティナビリティやソーシャルをテーマとした執筆・編集活動に従事。NVCと出逢い、互いに豊かさをもたらすつながりを生みだす精神的基盤であると確信し活動の軸をシフト。企業やNPO、大学など組織向けの他、個人にもNVCのプログラムを展開。Love
+                  Smart Cards (NVC+ポジティブ心理学プログラム）日本代表。
+                  主な講座に「SDGs x
+                  NVC」「TEAL時代のセルフ・リーダーシップとコミュニケーション」「Deep
+                  Coaching」など。
+                </p>
+              </div>
+            </section>
           </section>
-          <br />
-          <section className="grid-wrapper">
-            <div className="col-3">
-              <span className="image fit">
-                <img src={pic07} alt="Makiko Imai" />
-              </span>
-            </div>
-            <div className="col-9">
-              <h3>今井麻希子 (Makiko Imai)</h3>
-              <p>
-                国際基督教大学卒。民間企業で人事やコンサルティングなどに従事したのち独立。生物多様性の国際会議への参加をきっかけにNGO活動に参画、サスティナビリティやソーシャルをテーマとした執筆・編集活動に従事。NVCと出逢い、互いに豊かさをもたらすつながりを生みだす精神的基盤であると確信し活動の軸をシフト。企業やNPO、大学など組織向けの他、個人にもNVCのプログラムを展開。Love
-                Smart Cards (NVC+ポジティブ心理学プログラム）日本代表。
-                主な講座に「SDGs x
-                NVC」「TEAL時代のセルフ・リーダーシップとコミュニケーション」「Deep
-                Coaching」など。
-              </p>
-            </div>
-          </section>
-
           <hr className="major" />
           <h2>オーガナイザー・通訳・翻訳</h2>
           <section className="grid-wrapper">
@@ -89,7 +92,7 @@ const Elements = props => (
           <section className="grid-wrapper">
             <div className="col-3">
               <span className="image fit">
-                {/* <img src={pic03} alt="" /> */}
+                <img src={pic09} alt="Fumi" />
               </span>
             </div>
             <div className="col-9">
