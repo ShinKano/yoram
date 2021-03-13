@@ -77,7 +77,7 @@ const Landing = props => (
       <section id="two" className="spotlights">
         <section>
           <Link className="image">
-            <img src={pic12} alt="" />
+            <img src={pic12} alt="共感" />
           </Link>
           <div className="content">
             <div className="inner">
