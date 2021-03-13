@@ -10,7 +10,7 @@ import pic05 from '../assets/images/staff5.jpg';
 import pic06 from '../assets/images/staff6.jpg';
 import pic07 from '../assets/images/staff7.jpg';
 import pic08 from '../assets/images/staff8.png';
-import pic09 from '../assets/images/staff9.JPG';
+import pic09 from '../assets/images/staff10.jpg';
 
 const Elements = props => (
   <Layout>
