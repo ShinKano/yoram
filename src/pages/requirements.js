@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 
-import pic11 from '../assets/images/pic11.jpg';
+import pic16 from '../assets/images/pic16.jpg';
 
 const Requirements = props => (
   <Layout>
@@ -23,7 +23,7 @@ const Requirements = props => (
             <h1>参加要件</h1>
           </header>
           <span className="image main">
-            <img src={pic11} alt="" />
+            <img src={pic16} alt="沖縄の海" />
           </span>
           <p>
             当ワークショップ・リトリート参加に際し、以下の要件のうちいずれか（全部でなくて構いません）を満たし、

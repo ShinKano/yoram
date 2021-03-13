@@ -6,8 +6,6 @@ import BannerLanding from '../components/BannerLanding';
 import { SpanBlock } from '../utils/components';
 
 import pic08 from '../assets/images/pic08.jpg';
-import pic09 from '../assets/images/pic09.jpg';
-import pic10 from '../assets/images/pic10.jpg';
 import pic12 from '../assets/images/pic12.jpg';
 import pic13 from '../assets/images/pic13.jpg';
 import pic14 from '../assets/images/pic14.jpg';

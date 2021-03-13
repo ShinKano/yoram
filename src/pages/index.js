@@ -9,7 +9,7 @@ import pic02 from '../assets/images/pic02.jpg';
 import pic03 from '../assets/images/pic03.jpg';
 import pic04 from '../assets/images/pic04.jpg';
 import pic05 from '../assets/images/pic05.jpg';
-import pic06 from '../assets/images/pic06.jpg';
+import pic17 from '../assets/images/pic17.jpg';
 import { SpanBlock } from '../utils/components';
 import { COLORS } from '../styles';
 
@@ -93,14 +93,14 @@ class HomeIndex extends React.Component {
               </header>
               <Link to="/videos" className="link primary"></Link>
             </article>
-            <article style={{ backgroundImage: `url(${pic05})` }}>
+            <article style={{ backgroundImage: `url(${pic17})` }}>
               <header className="major">
                 <h3>参加要件</h3>
                 <p>より学びを深めるために</p>
               </header>
               <Link to="/requirements" className="link primary"></Link>
             </article>
-            <article style={{ backgroundImage: `url(${pic06})` }}>
+            <article style={{ backgroundImage: `url(${pic05})` }}>
               <header className="major">
                 <h3>スタッフ</h3>
                 <p>ヨラム招聘チームの紹介</p>

@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 
 import pic11 from '../assets/images/pic11.jpg';
 import pic03 from '../assets/images/pic03.jpg';
+import pic15 from '../assets/images/pic15.jpg';
 
 const Invitation = props => (
   <Layout>
@@ -19,7 +20,7 @@ const Invitation = props => (
             <h1>お誘いに代えて</h1>
           </header>
           <span className="image main">
-            <img src={pic11} alt="" />
+            <img src={pic15} alt="沖縄の道" />
           </span>
           <p>
             ヨラムの沖縄リトリート及び横浜２daysワークショップにご関心をお持ちの、この文章を読んでいただいている皆さま、ようこそ！御覧いただき有難うございます。
