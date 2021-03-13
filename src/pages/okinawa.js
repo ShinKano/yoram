@@ -181,7 +181,7 @@ const Landing = props => (
         </section>
         <section>
           <Link className="image">
-            <img src={okinawa02} alt="" />
+            <img src={okinawa02} alt="田んぼ" />
           </Link>
           <div className="content">
             <div className="inner">
