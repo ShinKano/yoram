@@ -22,7 +22,7 @@ const Menu = props => (
           </Link>
         </li>
         <li>
-          <Link onClick={props.onToggleMenu} to="/osasoi">
+          <Link onClick={props.onToggleMenu} to="/invitation">
             お誘い文に代えて
           </Link>
         </li>
