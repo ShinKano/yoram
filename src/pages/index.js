@@ -31,7 +31,7 @@ class HomeIndex extends React.Component {
           <section id="two">
             <div className="inner">
               <div className="covid-19">
-                プログロムは今後の新型コロナウィルスの動向によりオンライン開催に変更の可能性があります
+                プログラムは今後の新型コロナウィルスの動向によりオンライン開催に変更の可能性があります
               </div>
               <header className="major">
                 <h2>
