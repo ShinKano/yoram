@@ -31,7 +31,7 @@ class HomeIndex extends React.Component {
           <section id="two">
             <div className="inner">
               <div className="covid-19">
-                プログラムは今後の新型コロナウィルスの動向によりオンライン開催に変更の可能性があります
+                オンライン開催の決定に伴い、現在サイト調整中です。
               </div>
               <header className="major">
                 <h2>
@@ -58,7 +58,7 @@ class HomeIndex extends React.Component {
               </p> */}
             </div>
           </section>
-          <section id="one" className="tiles">
+          {/* <section id="one" className="tiles">
             <article style={{ backgroundImage: `url(${pic01})` }}>
               <header className="major">
                 <h3>横浜 2days</h3>
@@ -82,7 +82,6 @@ class HomeIndex extends React.Component {
             <article style={{ backgroundImage: `url(${pic03})` }}>
               <header className="major">
                 <h3>お誘いに代えて</h3>
-                {/* <p>サブタイトルあれば</p> */}
               </header>
               <Link to="/invitation" className="link primary"></Link>
             </article>
@@ -106,9 +105,8 @@ class HomeIndex extends React.Component {
                 <p>ヨラム招聘チームの紹介</p>
               </header>
               <Link to="/staff" className="link primary"></Link>
-              {/* <Link to="/elements" className="link primary"></Link> */}
             </article>
-          </section>
+          </section> */}
         </div>
       </Layout>
     );
