@@ -58,21 +58,21 @@ class HomeIndex extends React.Component {
               </p> */}
             </div>
           </section>
-          {/* <section id="one" className="tiles">
+          <section id="one" className="tiles">
             <article style={{ backgroundImage: `url(${pic01})` }}>
               <header className="major">
-                <h3>横浜 2days</h3>
+                <h3>The Street Giraffe</h3>
                 <h4>7月31日・8月1日</h4>
-                <p>The Street Giraffe</p>
+                <p>ストリートジラフ</p>
                 <p>誠実さと共感を磨く</p>
               </header>
               <Link to="/yokohama" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic02})` }}>
               <header className="major">
-                <h3>沖縄リトリート</h3>
+                <h3>The Art of Honesty</h3>
                 <h4>7月22日 ~ 7月25日</h4>
-                <p>The Art of Honesty</p>
+                <p>アート・オブ・オネスティ</p>
                 <p>
                   正直であろうとするときに<SpanBlock>起こるジレンマ</SpanBlock>
                 </p>
@@ -106,7 +106,7 @@ class HomeIndex extends React.Component {
               </header>
               <Link to="/staff" className="link primary"></Link>
             </article>
-          </section> */}
+          </section>
         </div>
       </Layout>
     );
