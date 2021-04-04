@@ -13,13 +13,13 @@ import pic14 from '../assets/images/pic14.jpg';
 const Landing = props => (
   <Layout>
     <Helmet>
-      <title>Yokohama | Yoram Japan 2021</title>
-      <meta name="description" content="Landing Page" />
+      <title>The Street Giraffe | Yoram Japan 2021</title>
+      <meta name="The Street Giraffe" content="The Street Giraffe" />
     </Helmet>
 
     <BannerLanding
-      title="横浜 2days"
-      desc1="The Street Giraffe"
+      title="The Street Giraffe"
+      desc1="ストリートジラフ"
       desc2="誠実さと共感を磨く"
     />
 

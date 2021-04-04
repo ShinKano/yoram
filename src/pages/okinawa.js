@@ -14,13 +14,13 @@ import { SpanBlock } from '../utils/components';
 const Landing = props => (
   <Layout>
     <Helmet>
-      <title>Okinawa | Yoram Japan 2021</title>
-      <meta name="description" content="Landing Page" />
+      <title>The Art of Honesty | Yoram Japan 2021</title>
+      <meta name="The Art of Honesty" content="The Art of Honesty" />
     </Helmet>
 
     <BannerLanding
-      title="沖縄リトリート"
-      desc1="The Art of Honesty"
+      title="The Art of Honesty"
+      desc1="アート・オブ・オネスティ"
       desc2="正直であろうとするときに起こるジレンマ"
     />
 
