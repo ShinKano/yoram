@@ -116,41 +116,18 @@ const Landing = props => (
             </div>
           </div>
         </section>
-        <section>
+        {/* <section>
           <Link className="image">
             <img src={okinawa01} alt="" />
           </Link>
           <div className="content">
             <div className="inner">
               <header className="major">
-                <h3>会場・アクセス</h3>
+                <h3>スケジュール</h3>
               </header>
-              <h4>ネイチャーみらい館（沖縄県国頭郡金武町）</h4>
-              <p>
-                集合: 7月22日（14時現地集合）
-                <br />
-                解散: 7月25日（15時現地解散）
-              </p>
-              <p>
-                会場まで送迎バスがご利用できます。
-                <br />
-                7/22　那覇空港発→会場着　12:00発　13:30着（予定）
-                <br />
-                7/25　会場発→那覇空港着　16:00発　17:30着（予定）
-                <br />
-                （事前申込み必要 / 詳細は「費用について」をご覧ください）
-              </p>
-              <p>※会場への直接のお問合せはご遠慮ください。</p>
-              {/* <ul className="actions">
-                <li>
-                  <Link to="https://www.nature-kin.com/" className="button">
-                    公式サイトへ
-                  </Link>
-                </li>
-              </ul> */}
             </div>
           </div>
-        </section>
+        </section> */}
         <section>
           <Link className="image">
             <img src={pic10} alt="" />
@@ -179,25 +156,51 @@ const Landing = props => (
             </div>
           </div>
         </section>
-        <section>
-          <Link className="image">
-            <img src={okinawa02} alt="田んぼ" />
-          </Link>
-          <div className="content">
-            <div className="inner">
-              <header className="major">
-                <h3>田んぼ泥んこ体験</h3>
-              </header>
-              <p>
-                2日目または3日目に「田んぼ泥んこ体験」を開催予定！田植えはしませんが（笑）
-                <br />
-                泥んこまみれで童心に返って遊びましょう！参加希望者は捨てても構わない服とタオル、ゴーグルのご用意を！
-              </p>
-              <p>参加：自由</p>
-              <p>費用：700円（現地払い）</p>
-            </div>
+      </section>
+      <section id="one">
+        <div className="inner">
+          <header className="major">
+            <h2>スケジュール</h2>
+          </header>
+          <div className="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>日付</th>
+                  <th>時間</th>
+                  <th>内容</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>7/22</td>
+                  <td>20:00-22:30</td>
+                  <td>オリエンテーション、自己紹介など</td>
+                </tr>
+                <tr>
+                  <td>7/23 & 7/24</td>
+                  <td>15:30-18:00</td>
+                  <td>セッション</td>
+                </tr>
+                <tr>
+                  <td>〃</td>
+                  <td>18:00-20:00</td>
+                  <td>食事休憩</td>
+                </tr>
+                <tr>
+                  <td>〃</td>
+                  <td>20:00-22:30</td>
+                  <td>セッション</td>
+                </tr>
+                <tr>
+                  <td>7/25</td>
+                  <td>15:30-18:00</td>
+                  <td>お祝いと嘆き、統合の時間、クロージング</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-        </section>
+        </div>
       </section>
     </div>
   </Layout>

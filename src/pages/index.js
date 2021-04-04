@@ -11,7 +11,6 @@ import pic04 from '../assets/images/pic04.jpg';
 import pic05 from '../assets/images/pic05.jpg';
 import pic17 from '../assets/images/pic17.jpg';
 import { SpanBlock } from '../utils/components';
-import { COLORS } from '../styles';
 
 class HomeIndex extends React.Component {
   render() {
@@ -31,7 +30,7 @@ class HomeIndex extends React.Component {
           <section id="two">
             <div className="inner">
               <div className="covid-19">
-                オンライン開催の決定に伴い、現在サイト調整中です。
+                本イベントはオンライン開催が決定いたしました。詳細については各ページをご覧ください。
               </div>
               <header className="major">
                 <h2>
@@ -51,11 +50,11 @@ class HomeIndex extends React.Component {
                 ヨーロッパ各地で英語、フランス語、ヘブライ語のワークショップを開催し、非暴力コミュニケーション国際センター（CNVC）のミッションをサポートしています。
                 アムステルダムでは0歳～21歳までの子供・若者を対象にしているNVCを土台にした学校LIFE！発起人の1人として現在も活躍中です。
               </p>
-              {/* <h4>リトリート・ワークショップで実践すること</h4>
+              <h4>リトリート・ワークショップで実践すること</h4>
               <p>
                 インタラクティブで安全な環境のなか、参加者は自分自身の生活の中で起こるシチュエーションをワークの中で取り組むよう誘われます。
                 WSではデモやロールプレイング、数々エクササイズを通して、NVCの価値観と表現方法を実際の暮らしの中に融合できるよう練習します。
-              </p> */}
+              </p>
             </div>
           </section>
           <section id="one" className="tiles">

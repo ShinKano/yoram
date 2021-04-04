@@ -111,31 +111,18 @@ const Landing = props => (
             </div>
           </div>
         </section>
-        <section>
+        {/* <section>
           <Link className="image">
             <img src={pic13} alt="ウィリング横浜外観" />
           </Link>
           <div className="content">
             <div className="inner">
               <header className="major">
-                <h3>会場・アクセス</h3>
+                <h3>スケジュール</h3>
               </header>
-              <h4>ウィリング横浜（神奈川県横浜市港南区）</h4>
-              <p>時間: 10am ～18pm （途中ランチ休憩含む）</p>
-              {/* <ul className="actions">
-                <li>
-                  <Link
-                    to="http://www.yokohamashakyo.jp/willing/index.html"
-                    className="button"
-                  >
-                    公式サイトへ
-                  </Link>
-                </li>
-              </ul> */}
-              <p>※会場への直接のお問合せはご遠慮ください。</p>
             </div>
           </div>
-        </section>
+        </section> */}
         <section>
           <Link className="image">
             <img src={pic14} alt="横浜名物" />
@@ -155,6 +142,56 @@ const Landing = props => (
             </div>
           </div>
         </section>
+      </section>
+      <section id="one">
+        <div className="inner">
+          <header className="major">
+            <h2>スケジュール</h2>
+          </header>
+          <div className="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>日付</th>
+                  <th>時間</th>
+                  <th>内容</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>7/31</td>
+                  <td>16:00～19:30</td>
+                  <td>セッション</td>
+                </tr>
+                <tr>
+                  <td>〃</td>
+                  <td>19:30～20:45</td>
+                  <td>食事休憩</td>
+                </tr>
+                <tr>
+                  <td>〃</td>
+                  <td>20:45～22:30</td>
+                  <td>セッション</td>
+                </tr>
+                <tr>
+                  <td>8/1</td>
+                  <td>16:00～19:30</td>
+                  <td>セッション</td>
+                </tr>
+                <tr>
+                  <td>〃</td>
+                  <td>19:30～20:45</td>
+                  <td>食事休憩</td>
+                </tr>
+                <tr>
+                  <td>〃</td>
+                  <td>20:45～22:30</td>
+                  <td>セッション</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </section>
     </div>
   </Layout>
