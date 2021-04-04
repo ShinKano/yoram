@@ -12,9 +12,9 @@ const Banner = props => (
       </header>
       <div className="content">
         <p>
-          2021 ヨラム・モセンゾン初来日
+          2021 ヨラム・モセンゾン日本初
           <br />
-          <SpanBlock>沖縄リトリート & 横浜2daysワークショップ</SpanBlock>
+          <SpanBlock>ワークショップ&リトリート</SpanBlock>
         </p>
         <ul className="actions">
           <li>

@@ -40,7 +40,7 @@ const Contact = props => (
               ご予約金のお振込み:
             </span>
             <br />
-            申し込みフォーム送信後、1週間以内に予約金（沖縄2万円、横浜1万円）を指定口座にお振込みください。
+            申し込みフォーム送信後、1週間以内に予約金（アート・オブ・オネスティ2万円、ストリートジラフ1万円）を指定口座にお振込みください。
             ご入金が確認できた順に予約確定となります。なお、ご予約金はキャンセルの時期、事由にかかわらず返金されないことをご了承ください。
           </li>
           <br />
@@ -56,8 +56,6 @@ const Contact = props => (
             <span style={{ textDecorationLine: 'underline' }}>
               残金のお支払い: <br />
             </span>
-            ゴールデンウイーク後、日本・オランダにおける新型コロナウィルスの動向を鑑みて、現地開催/オンライン開催のいずれかが確定いたします。
-            現地/オンライン開催が確定した折に、残金のお支払いについてのご案内をメールにてご連絡いたします。
             こちらで残金のお支払いが確認できた後、最終確認メールの送信をもって正式なお席の確保といたします。
           </li>
         </ol>
@@ -66,7 +64,7 @@ const Contact = props => (
         <section>
           <div className="contact-method">
             <span className="icon alt fa-check"></span>
-            <h3>横浜2days WS</h3>
+            <h3>ストリートジラフ</h3>
             <a
               href="https://docs.google.com/forms/d/1IA5l6iBh8sUcT8LfnMK_72rRvvqFaRXOKLH8K4tdNdc/viewform?ts=600bc826&edit_requested=true"
               target="_blank"
@@ -79,7 +77,7 @@ const Contact = props => (
         <section>
           <div className="contact-method">
             <span className="icon alt fa-check"></span>
-            <h3>沖縄リトリート</h3>
+            <h3>アート・オブ・オネスティ</h3>
             <a
               href="https://docs.google.com/forms/d/1_xtAAqH0EcOt7rvVp-VzIw4K0JtKBWeYLeEch6X1Ctc/viewform?ts=600bc83c&edit_requested=true"
               target="_blank"

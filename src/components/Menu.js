@@ -13,12 +13,12 @@ const Menu = props => (
         </li>
         <li>
           <Link onClick={props.onToggleMenu} to="/okinawa">
-            沖縄リトリート
+            アート・オブ・オネスティ
           </Link>
         </li>
         <li>
           <Link onClick={props.onToggleMenu} to="/yokohama">
-            横浜2Days
+            ストリートジラフ
           </Link>
         </li>
         <li>
