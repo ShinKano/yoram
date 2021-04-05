@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = props => (
   <footer id="footer">
     <div className="inner">
-      オンライン開催に伴い、サイト調整中です。ご不便をおかけしますがしばらくお待ちください。
+      {/* オンライン開催に伴い、サイト調整中です。ご不便をおかけしますがしばらくお待ちください。 */}
       <ul className="icons">
         <li>
           <a

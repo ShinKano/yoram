@@ -11,6 +11,9 @@ import pic06 from '../assets/images/staff6.jpg';
 import pic07 from '../assets/images/staff7.jpg';
 import pic08 from '../assets/images/staff8.png';
 import pic09 from '../assets/images/staff10.jpg';
+import pic11 from '../assets/images/staff11.jpg';
+import pic12 from '../assets/images/staff12.jpg';
+import pic13 from '../assets/images/staff13.jpg';
 
 const Elements = props => (
   <Layout>
@@ -86,7 +89,7 @@ const Elements = props => (
           </section>
 
           <hr className="major" />
-          <h2>アシスタント・テクニカルサポート</h2>
+          <h2>アシスタント</h2>
 
           <section className="grid-wrapper">
             <div className="col-3">
@@ -139,7 +142,89 @@ const Elements = props => (
           <section className="grid-wrapper">
             <div className="col-3">
               <span className="image fit">
-                <img src={pic03} alt="" />
+                <img src={pic06} alt="Rico" />
+              </span>
+            </div>
+            <div className="col-9">
+              <h3>市谷理子 (Rico)</h3>
+              <p>
+                海と猫を愛するミニマリスト。
+                <br />
+                ジャッカル幼稚園の園長B。
+              </p>
+            </div>
+          </section>
+
+          <section className="grid-wrapper">
+            <div className="col-3">
+              <span className="image fit">
+                <img src={pic12} alt="宮城晶子" />
+              </span>
+            </div>
+            <div className="col-9">
+              <h3>宮城晶子</h3>
+              <p>
+                沖縄出身米国ウィスコンシン在住。CNVC認定トレーナー候補生。昨年のNVCグローバルフェス・グローバルフェスJAPANでヨラムの共感の深さに感動。
+                「お茶目なお兄ちゃん」のイメージから一転して、ヨラムの共感の質にふれる機会を楽しみにしてます。
+              </p>
+            </div>
+          </section>
+
+          <section className="grid-wrapper">
+            <div className="col-3">
+              <span className="image fit">
+                <img src={pic06} alt="矢沢実穂" />
+              </span>
+            </div>
+            <div className="col-9">
+              <h3>矢沢実穂</h3>
+              <p>
+                海と猫を愛するミニマリスト。
+                <br />
+                ジャッカル幼稚園の園長B。
+              </p>
+            </div>
+          </section>
+
+          <section className="grid-wrapper">
+            <div className="col-3">
+              <span className="image fit">
+                <img src={pic11} alt="都築幸江" />
+              </span>
+            </div>
+            <div className="col-9">
+              <h3>都築幸江</h3>
+              <p>
+                2019年ローマで参加したYoramのワークショップでの包み込むような空気感は今でも忘れません。
+                以来、彼のあり方に触れること、ティーチングスタイルが大好きになり、彼のコースを追っかけています。
+                どんな時も、まず呼吸して身体の3D感覚を取り戻すことを彼から教わり、多言語でのNVCの実践に楽しくチャレンジしています。
+              </p>
+            </div>
+          </section>
+
+          <section className="grid-wrapper">
+            <div className="col-3">
+              <span className="image fit">
+                <img src={pic13} alt="シルバーマン恵子" />
+              </span>
+            </div>
+            <div className="col-9">
+              <h3>シルバーマン恵子</h3>
+              <p>
+                『NVCの社会システムを変えていく力をミキ・カシュタンから、自分と周りとのコミュニケーションを変え関係性を深める力をヨラム・モセンゾンから学んでいる。
+                ヨラムのトレーナー・トレーニング・コース、メディエーション・コースに在籍しながらオンライン・コースのアシスタントも務めている。
+                NGLプロバイダーアプレンティス１期生＆CNVC認定候補生。』
+              </p>
+            </div>
+          </section>
+
+          <hr className="major" />
+          <h2>テクニカルサポート</h2>
+
+          <section className="grid-wrapper">
+            <div className="col-3">
+              <span className="image fit">
+                <img src={pic03} alt="赤尾航" />
               </span>
             </div>
             <div className="col-9">
@@ -165,24 +250,6 @@ const Elements = props => (
                 「私が笑うからみんなも笑う、私がHappyだからみんなもHappy♪」がモットー。
                 <br />
                 みなさんに会えること楽しみにしています。ゆたしくうにげーさびら(๑&gt;◡&lt;๑)♪
-              </p>
-            </div>
-          </section>
-
-          <hr className="major" />
-          <h2>特別サポート</h2>
-          <section className="grid-wrapper">
-            <div className="col-3">
-              <span className="image fit">
-                <img src={pic06} alt="Rico" />
-              </span>
-            </div>
-            <div className="col-9">
-              <h3>市谷理子 (Rico)</h3>
-              <p>
-                海と猫を愛するミニマリスト。
-                <br />
-                ジャッカル幼稚園の園長B。
               </p>
             </div>
           </section>
