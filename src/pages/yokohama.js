@@ -123,7 +123,7 @@ const Landing = props => (
             </div>
           </div>
         </section> */}
-        <section>
+        {/* <section>
           <Link className="image">
             <img src={pic14} alt="横浜名物" />
           </Link>
@@ -147,8 +147,45 @@ const Landing = props => (
               </p>
             </div>
           </div>
-        </section>
+        </section> */}
       </section>
+
+      <section id="one">
+        <div className="inner">
+          <header className="major">
+            <h2>費用について</h2>
+          </header>
+          <p>参加費はスライディングスケール料金体系を採用しております。</p>
+          <p>
+            受講料の選択は、あなたの収入と自由意志によります。スライディングスケールの背景にある考え方は、私たちは皆、現在の経済状況が異なるため、
+            あなたの経済状況と私たちをサポートしたいという個人的な希望に合うように、柔軟に対応したいと考えています。
+          </p>
+          <p>
+            当イベントもConnecting2Lifeの意図をできるだけ反映したいと考え、スライディングスケールを採用しておりますが、
+            日本での開催は通訳やその他の配慮が必要となることからスケールの選択を狭めなければならないことを残念に思っています。
+          </p>
+
+          <div className="table-wrapper">
+            <table>
+              <tbody>
+                <tr>
+                  <td>早割料金</td>
+                  <td>¥45,000〜¥40,000</td>
+                </tr>
+                <tr>
+                  <td>通常料金</td>
+                  <td>¥50,000〜¥45,000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p>
+            ※早割対象者は4/1までに申し込みフォームを送信し、予約確定メールを受領した方となります。4/2以降のお申込み分は、通常料金を適用いたします。
+          </p>
+        </div>
+      </section>
+
       <section id="one">
         <div className="inner">
           <header className="major">
