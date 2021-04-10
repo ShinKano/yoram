@@ -14,6 +14,9 @@ import pic09 from '../assets/images/staff10.jpg';
 import pic11 from '../assets/images/staff11.jpg';
 import pic12 from '../assets/images/staff12.jpg';
 import pic13 from '../assets/images/staff13.jpg';
+import pic14 from '../assets/images/staff14.jpg';
+import pic15 from '../assets/images/staff15.jpg';
+import pic16 from '../assets/images/staff16.jpg';
 
 const Elements = props => (
   <Layout>
@@ -89,6 +92,25 @@ const Elements = props => (
           </section>
 
           <hr className="major" />
+          <h2>オーガナイズ・アシスタント</h2>
+
+          <section className="grid-wrapper">
+            <div className="col-3">
+              <span className="image fit">
+                <img src={pic04} alt="Kah-ei" />
+              </span>
+            </div>
+            <div className="col-9">
+              <h3>諸留華英（Kah-eh）</h3>
+              <p>
+                沖縄生まれ　沖縄育ち　
+                <br />
+                皆さまとじかに出遭える日を楽しみにしています♪
+              </p>
+            </div>
+          </section>
+
+          <hr className="major" />
           <h2>アシスタント</h2>
 
           <section className="grid-wrapper">
@@ -103,22 +125,6 @@ const Elements = props => (
                 いい時間になるよう、気を配って行けたらと思います。
                 <br />
                 よろしくお願いいたします。
-              </p>
-            </div>
-          </section>
-
-          <section className="grid-wrapper">
-            <div className="col-3">
-              <span className="image fit">
-                <img src={pic04} alt="Kah-ei" />
-              </span>
-            </div>
-            <div className="col-9">
-              <h3>諸留華英（Kah-eh）</h3>
-              <p>
-                沖縄生まれ　沖縄育ち　
-                <br />
-                皆さまとじかに出遭える日を楽しみにしています♪
               </p>
             </div>
           </section>
@@ -173,15 +179,14 @@ const Elements = props => (
           <section className="grid-wrapper">
             <div className="col-3">
               <span className="image fit">
-                <img src={pic06} alt="矢沢実穂" />
+                <img src={pic16} alt="矢沢実穂" />
               </span>
             </div>
             <div className="col-9">
               <h3>矢沢実穂</h3>
               <p>
-                海と猫を愛するミニマリスト。
-                <br />
-                ジャッカル幼稚園の園長B。
+                東京/国立出身。オーストラリア在住。１０歳の息子の母親。
+                ２００７年にNVCに出会いました。現在はダンス（体と動き）とNVCの統合を探求中しながら学びとシェアを続けています。
               </p>
             </div>
           </section>
@@ -211,9 +216,36 @@ const Elements = props => (
             <div className="col-9">
               <h3>シルバーマン恵子</h3>
               <p>
-                『NVCの社会システムを変えていく力をミキ・カシュタンから、自分と周りとのコミュニケーションを変え関係性を深める力をヨラム・モセンゾンから学んでいる。
-                ヨラムのトレーナー・トレーニング・コース、メディエーション・コースに在籍しながらオンライン・コースのアシスタントも務めている。
-                NGLプロバイダーアプレンティス１期生＆CNVC認定候補生。』
+                ハワイ在住。CNVC認定候補生。ヨラムのトレーナー・トレーニングコース、メディエーション・コースに在籍しながら、オンラインコースでのアシスタントを務めています。
+              </p>
+            </div>
+          </section>
+
+          <section className="grid-wrapper">
+            <div className="col-3">
+              <span className="image fit">
+                <img src={pic15} alt="Fumi" />
+              </span>
+            </div>
+            <div className="col-9">
+              <h3>後藤剛</h3>
+              <p>
+                CNVC認定トレーナー。場に潜む真実を聴き意識化することが得意。個々の光を認め、使命を生きる。
+              </p>
+            </div>
+          </section>
+
+          <section className="grid-wrapper">
+            <div className="col-3">
+              <span className="image fit">
+                <img src={pic14} alt="Fumi" />
+              </span>
+            </div>
+            <div className="col-9">
+              <h3>小笠原春野</h3>
+              <p>
+                CNVC認定トレーナー。みなさんを沖縄にお迎えできないのは残念ですが、
+                オンラインの場でご一緒にヨラム・ワールドに飛び込んで、発見や変容を共にできることを楽しみにしています。
               </p>
             </div>
           </section>
@@ -254,18 +286,18 @@ const Elements = props => (
             </div>
           </section>
 
-          <hr className="major" />
+          {/* <hr className="major" />
           <h2>Web制作/翻訳</h2>
-          <section className="grid-wrapper">
-            {/* <div className="col-3">
+          <section className="grid-wrapper"> */}
+          {/* <div className="col-3">
               <span className="image fit">
                 <img src={pic03} alt="" />
               </span>
             </div> */}
-            <div className="col-9">
+          {/* <div className="col-9">
               <h3>加納愼之典</h3>
             </div>
-          </section>
+          </section> */}
         </div>
       </section>
     </div>
