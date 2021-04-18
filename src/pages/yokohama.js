@@ -183,6 +183,32 @@ const Landing = props => (
           <p>
             ※早割対象者は4/1までに申し込みフォームを送信し、予約確定メールを受領した方となります。4/2以降のお申込み分は、通常料金を適用いたします。
           </p>
+
+          <header className="major">
+            <h3>キャンセルポリシー</h3>
+          </header>
+          <div className="table-wrapper">
+            <table>
+              <tbody>
+                <tr>
+                  <td>6/15まで</td>
+                  <td>ご予約金・振込み手数料を差し引いた残額 返金</td>
+                </tr>
+                <tr>
+                  <td>6/16～7/16</td>
+                  <td>（ご予約金・振込み手数料を差し引いた）80% 返金</td>
+                </tr>
+                <tr>
+                  <td>7/17～7/23</td>
+                  <td>（　同上　）50% 返金</td>
+                </tr>
+                <tr>
+                  <td>7/24～当日</td>
+                  <td>0% 返金</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </section>
 
