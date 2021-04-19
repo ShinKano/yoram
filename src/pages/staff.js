@@ -164,11 +164,11 @@ const Elements = props => (
           <section className="grid-wrapper">
             <div className="col-3">
               <span className="image fit">
-                <img src={pic12} alt="宮城晶子" />
+                <img src={pic12} alt="宮城昌子" />
               </span>
             </div>
             <div className="col-9">
-              <h3>宮城晶子</h3>
+              <h3>宮城昌子</h3>
               <p>
                 沖縄出身米国ウィスコンシン在住。CNVC認定トレーナー候補生。昨年のNVCグローバルフェス・グローバルフェスJAPANでヨラムの共感の深さに感動。
                 「お茶目なお兄ちゃん」のイメージから一転して、ヨラムの共感の質にふれる機会を楽しみにしてます。
@@ -179,11 +179,11 @@ const Elements = props => (
           <section className="grid-wrapper">
             <div className="col-3">
               <span className="image fit">
-                <img src={pic16} alt="矢沢実穂" />
+                <img src={pic16} alt="矢澤実穂" />
               </span>
             </div>
             <div className="col-9">
-              <h3>矢沢実穂</h3>
+              <h3>矢澤実穂</h3>
               <p>
                 東京/国立出身。オーストラリア在住。１０歳の息子の母親。
                 ２００７年にNVCに出会いました。現在はダンス（体と動き）とNVCの統合を探求中しながら学びとシェアを続けています。
