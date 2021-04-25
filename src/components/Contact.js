@@ -59,6 +59,13 @@ const Contact = props => (
             </span>
             両ワークショップ共、お支払い期限（6/15）までに、参加費の残額をお振込みいただきます。お支払いが確認できた後、最終予約確認メールを送信いたしますので、それをもって正式なお席の確保といたします。
           </li>
+          <br />
+          <li>
+            <span style={{ textDecorationLine: 'underline' }}>
+              サポート:<br />
+            </span>
+            経済的状況が参加の妨げにならないよう、また相互の「受け取り」「与える」経験が豊かなものになるよう、支払いにサポートが必要な方にも参加の道を開きたいと願っています。お問い合わせはこちらまで sakonakama☆gmail.com （←☆を＠に変えて）
+          </li>
         </ol>
       </section>
       <section className="split">
