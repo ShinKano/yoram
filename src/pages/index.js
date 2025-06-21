@@ -10,6 +10,7 @@ import pic03 from '../assets/images/pic03.jpg';
 import pic04 from '../assets/images/pic04.jpg';
 import pic05 from '../assets/images/pic05.jpg';
 import pic17 from '../assets/images/pic17.jpg';
+import pic16 from '../assets/images/pic16.jpg';
 import yoramProfile from '../assets/images/profile01.png';
 import { SpanBlock } from '../utils/components';
 
@@ -92,23 +93,34 @@ class HomeIndex extends React.Component {
           <section id="one" className="tiles">
             <article style={{ backgroundImage: `url(${pic01})` }}>
               <header className="major">
-                <h3>The Street Giraffe</h3>
-                <h4>7月31日・8月1日（2026年）</h4>
-                <p>ストリートジラフ</p>
-                <p>誠実さと共感を磨く</p>
+                <h3>Connecting in Conflict</h3>
+                <h4>4月11日・12日（2026年）</h4>
+                <p>対立がつながりに変わるとき</p>
+                <p>共感と正直さが交わる場で</p>
               </header>
               <Link to="/yokohama" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic02})` }}>
               <header className="major">
-                <h3>The Art of Honesty</h3>
-                <h4>7月22日 ~ 7月25日（2026年）</h4>
-                <p>アート・オブ・オネスティ</p>
+                <h3>Radical Honesty</h3>
+                <h4>4月17日 ~ 19日（2026年）</h4>
+                <p>基礎編・沖縄</p>
                 <p>
-                  正直であろうとするときに<SpanBlock>起こるジレンマ</SpanBlock>
+                  自分も相手も、誰も傷つけることなく<SpanBlock>正直で在り続けるために</SpanBlock>
                 </p>
               </header>
               <Link to="/okinawa" className="link primary"></Link>
+            </article>
+            <article style={{ backgroundImage: `url(${pic17})` }}>
+              <header className="major">
+                <h3>NVC Mediation</h3>
+                <h4>4月21日 ~ 24日（2026年）</h4>
+                <p>応用編・沖縄</p>
+                <p>
+                  対立の中に、<SpanBlock>つながりの種を見つける</SpanBlock>
+                </p>
+              </header>
+              <Link to="/okinawa2" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic03})` }}>
               <header className="major">
@@ -123,7 +135,7 @@ class HomeIndex extends React.Component {
               </header>
               <Link to="/videos" className="link primary"></Link>
             </article>
-            <article style={{ backgroundImage: `url(${pic17})` }}>
+            <article style={{ backgroundImage: `url(${pic16})` }}>
               <header className="major">
                 <h3>参加要件</h3>
                 <p>より学びを深めるために</p>
