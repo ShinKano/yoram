@@ -13,7 +13,7 @@ const Footer = props => (
             <span className="label">Facebook</span>
           </a>
         </li>
-        <li>
+        {/* <li>
           <a href="#" className="icon alt fa-twitter">
             <span className="label">Twitter</span>
           </a>
@@ -33,7 +33,7 @@ const Footer = props => (
           <a href="#" className="icon alt fa-linkedin">
             <span className="label">LinkedIn</span>
           </a>
-        </li>
+        </li> */}
         <li>Yoram Japan NVC 2021.</li>
       </ul>
       {/* <ul className="copyright">
