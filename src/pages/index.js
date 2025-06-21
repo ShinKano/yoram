@@ -120,7 +120,7 @@ class HomeIndex extends React.Component {
                   対立の中に、<SpanBlock>つながりの種を見つける</SpanBlock>
                 </p>
               </header>
-              <Link to="/okinawa2" className="link primary"></Link>
+              <Link to="/okinawa-2" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic03})` }}>
               <header className="major">
