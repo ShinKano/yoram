@@ -124,7 +124,7 @@ class HomeIndex extends React.Component {
             </article>
             <article style={{ backgroundImage: `url(${pic03})` }}>
               <header className="major">
-                <h3>お誘いに代えて</h3>
+                <h3>オーガナイザーチームから</h3>
               </header>
               <Link to="/invitation" className="link primary"></Link>
             </article>
