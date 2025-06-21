@@ -5,14 +5,14 @@ const Footer = props => (
     <div className="inner">
       {/* オンライン開催に伴い、サイト調整中です。ご不便をおかけしますがしばらくお待ちください。 */}
       <ul className="icons">
-        <li>
+        {/* <li>
           <a
             href="https://m.facebook.com/groups/766557293841292"
             className="icon alt fa-facebook"
           >
             <span className="label">Facebook</span>
           </a>
-        </li>
+        </li> */}
         {/* <li>
           <a href="#" className="icon alt fa-twitter">
             <span className="label">Twitter</span>
@@ -34,7 +34,8 @@ const Footer = props => (
             <span className="label">LinkedIn</span>
           </a>
         </li> */}
-        <li>Yoram Japan NVC 2021.</li>
+        <li>Yoram NVC Project Japan 2026.</li>
+        <li>つながりコミッティ</li>
       </ul>
       {/* <ul className="copyright">
                 <li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
