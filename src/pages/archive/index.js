@@ -1,36 +1,43 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Helmet from 'react-helmet';
-import Layout from '../components/layout';
-import Banner from '../components/Banner';
+import Layout from '../../components/layout';
 
-import pic01 from '../assets/images/pic01.jpg';
-import pic02 from '../assets/images/pic02.jpg';
-import pic03 from '../assets/images/pic03.jpg';
-import pic04 from '../assets/images/pic04.jpg';
-import pic05 from '../assets/images/pic05.jpg';
-import pic17 from '../assets/images/pic17.jpg';
-import { SpanBlock } from '../utils/components';
+import pic01 from '../../assets/images/pic01.jpg';
+import pic02 from '../../assets/images/pic02.jpg';
+import pic03 from '../../assets/images/pic03.jpg';
+import pic04 from '../../assets/images/pic04.jpg';
+import pic05 from '../../assets/images/pic05.jpg';
+import pic17 from '../../assets/images/pic17.jpg';
+import { SpanBlock } from '../../utils/components';
 
-class HomeIndex extends React.Component {
+class ArchiveIndex extends React.Component {
   render() {
     return (
       <Layout>
         <Helmet
-          title="Yoram Japan 2026"
+          title="Yoram Japan 2021 - アーカイブ"
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'description', content: 'Yoram Japan 2021年イベントのアーカイブページ' },
+            { name: 'keywords', content: 'NVC, ヨラム, アーカイブ, 2021' },
           ]}
         ></Helmet>
 
-        <Banner />
-
         <div id="main">
+          <section id="banner" className="major">
+            <div className="inner">
+              <header className="major">
+                <h1>Yoram Japan 2021 アーカイブ</h1>
+                <p>2021年に開催されたヨラムのワークショップ情報</p>
+                <Link to="/" className="button">最新情報へ戻る</Link>
+              </header>
+            </div>
+          </section>
+          
           <section id="two">
             <div className="inner">
               <div className="covid-19">
-                2026年開催予定です。詳細については各ページをご覧ください。
+                このイベントはオンライン開催で実施されました。
               </div>
               <header className="major">
                 <h2>
@@ -61,56 +68,49 @@ class HomeIndex extends React.Component {
             <article style={{ backgroundImage: `url(${pic01})` }}>
               <header className="major">
                 <h3>The Street Giraffe</h3>
-                <h4>7月31日・8月1日（2026年）</h4>
+                <h4>7月31日・8月1日（2021年）</h4>
                 <p>ストリートジラフ</p>
                 <p>誠実さと共感を磨く</p>
               </header>
-              <Link to="/yokohama" className="link primary"></Link>
+              <Link to="/archive/yokohama" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic02})` }}>
               <header className="major">
                 <h3>The Art of Honesty</h3>
-                <h4>7月22日 ~ 7月25日（2026年）</h4>
+                <h4>7月22日 ~ 7月25日（2021年）</h4>
                 <p>アート・オブ・オネスティ</p>
                 <p>
                   正直であろうとするときに<SpanBlock>起こるジレンマ</SpanBlock>
                 </p>
               </header>
-              <Link to="/okinawa" className="link primary"></Link>
+              <Link to="/archive/okinawa" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic03})` }}>
               <header className="major">
                 <h3>お誘いに代えて</h3>
               </header>
-              <Link to="/invitation" className="link primary"></Link>
+              <Link to="/archive/invitation" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic04})` }}>
               <header className="major">
                 <h3>動画リンク集</h3>
                 <p>ヨラムのWS動画（日本語約付）</p>
               </header>
-              <Link to="/videos" className="link primary"></Link>
+              <Link to="/archive/videos" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic17})` }}>
               <header className="major">
                 <h3>参加要件</h3>
                 <p>より学びを深めるために</p>
               </header>
-              <Link to="/requirements" className="link primary"></Link>
+              <Link to="/archive/requirements" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic05})` }}>
               <header className="major">
                 <h3>スタッフ</h3>
                 <p>ヨラム招聘チームの紹介</p>
               </header>
-              <Link to="/staff" className="link primary"></Link>
-            </article>
-            <article style={{ backgroundColor: '#f7f7f7', border: '2px solid #666' }}>
-              <header className="major">
-                <h3 style={{ color: '#666' }}>2021年アーカイブ</h3>
-                <p style={{ color: '#666' }}>過去のイベント情報</p>
-              </header>
-              <Link to="/archive" className="link primary"></Link>
+              <Link to="/archive/staff" className="link primary"></Link>
             </article>
           </section>
         </div>
@@ -119,4 +119,4 @@ class HomeIndex extends React.Component {
   }
 }
 
-export default HomeIndex;
+export default ArchiveIndex;
