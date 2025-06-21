@@ -66,11 +66,11 @@ const Contact = props => (
             <span className="icon alt fa-check"></span>
             <h3>東京・基礎編</h3>
             <a
-              href="https://docs.google.com/forms/d/1IA5l6iBh8sUcT8LfnMK_72rRvvqFaRXOKLH8K4tdNdc/viewform?ts=600bc826&edit_requested=true"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
             >
-              お申し込みフォームはコチラ
+              🚧 準備中です
             </a>
           </div>
         </section>
@@ -79,11 +79,11 @@ const Contact = props => (
             <span className="icon alt fa-check"></span>
             <h3>沖縄・基礎編</h3>
             <a
-              href="https://docs.google.com/forms/d/1_xtAAqH0EcOt7rvVp-VzIw4K0JtKBWeYLeEch6X1Ctc/viewform?ts=600bc83c&edit_requested=true"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
             >
-              お申し込みフォームはコチラ
+              🚧 準備中です
             </a>
           </div>
         </section>
@@ -92,11 +92,11 @@ const Contact = props => (
             <span className="icon alt fa-check"></span>
             <h3>沖縄・応用編</h3>
             <a
-              href="https://docs.google.com/forms/d/1EGPTNGNE50FSB0XaVHRc2NzBz9HxuTlNUwthtP68Xg4/viewform?edit_requested=true"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
             >
-              お申し込みフォームはコチラ
+              🚧 準備中です
             </a>
 
           </div>
@@ -106,11 +106,11 @@ const Contact = props => (
             <span className="icon alt fa-question"></span>
             <h3>お問い合わせ</h3>
             <a
-              href="https://docs.google.com/forms/d/1EGPTNGNE50FSB0XaVHRc2NzBz9HxuTlNUwthtP68Xg4/viewform?edit_requested=true"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
             >
-              お申し込みフォームはコチラ
+              🚧 準備中です
             </a>
 
             <p>
