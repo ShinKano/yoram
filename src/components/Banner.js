@@ -6,13 +6,13 @@ const Banner = props => (
     <div className="inner">
       <header className="major">
         <h1>
-          2021<span style={{ color: 'tomato' }}>.</span> Yoram Mosenzon{' '}
+          2026<span style={{ color: 'tomato' }}>.</span> Yoram Mosenzon{' '}
         </h1>
-        <h2>NVC Workshop in Japan</h2>
+        <h2>NVC ワークショップ in JAPAN</h2>
       </header>
       <div className="content">
         <p>
-          2021 ヨラム・モセンゾン日本初
+          2026 ヨラム・モセンゾン日本初
           <br />
           <SpanBlock>ワークショップ&リトリート</SpanBlock>
         </p>
