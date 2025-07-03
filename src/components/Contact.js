@@ -23,11 +23,25 @@ const Contact = props => (
                         <li><input type="reset" value="Clear" /></li>
                     </ul>
                 </form> */}
-        <header className="sub">
-          <h2>お申し込みの流れ</h2>
-          <h3>オンライン開催に伴い変更しました</h3>
-        </header>
-        <ol>
+
+
+
+        <h3>
+          エントリーから参加確定までの流れ
+        </h3>
+        <p>
+          参加をご希望の方は、エントリーシートにご記入のうえ、お申し込みください。
+          締め切りは、2025年8月31日（土）です。
+        </p>
+        <p>
+          締め切り後、1週間ほどを目安に参加の可否をご連絡いたします。定員を超えた場合は、キャンセル待ちとしてご案内いたします。定員に満たなかった場合は、8月31日以降も先着順で受付を継続し、順次お支払い方法をご案内します（定員に達し次第、キャンセル待ちとなります）。
+        </p>
+        <p>
+          参加が確定した方は、2025年10月31日（金）までにご入金をお願いいたします。
+          期日までにご入金が確認できない場合は、キャンセル扱いとなりますので、あらかじめご了承ください。
+        </p>
+
+        {/* <ol>
           <li>
             <span style={{ textDecorationLine: 'underline' }}>
               申込みフォーム送信:
@@ -60,63 +74,45 @@ const Contact = props => (
             両ワークショップ共、お支払い期限（6/15 or
             6/15以降にお支払いの方は7/15）までに、参加費の残額をお振込みいただきます。お支払いが確認できた後、最終予約確認メールを送信いたしますので、それをもって正式なお席の確保といたします。
           </li>
-          <br />
-          <li>
-            <span style={{ textDecorationLine: 'underline' }}>
-              サポート:
-              <br />
-            </span>
-            経済的状況が参加の妨げにならないよう、また相互の「受け取り」「与える」経験が豊かなものになるよう、支払いにサポートが必要な方にも参加の道を開きたいと願っています。お問い合わせはこちらまで
-            sakonakama☆gmail.com （←☆を＠に変えて）
-          </li>
-        </ol>
+
+        </ol> */}
+        <p>
+          8月31日（日）の時点で定員に満たない場合は、先着順にて受付を継続し、順次お支払い方法をご案内いたします。
+        </p>
       </section>
       <section className="split">
         <section>
           <div className="contact-method">
             <span className="icon alt fa-check"></span>
-            <h3>ストリートジラフ</h3>
+            <h3>エントリーシート</h3>
             <a
-              href="https://docs.google.com/forms/d/1IA5l6iBh8sUcT8LfnMK_72rRvvqFaRXOKLH8K4tdNdc/viewform?ts=600bc826&edit_requested=true"
+              href="https://gaiacompass.net/yoram-in-japan-2026/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              お申し込みフォームはコチラ
-            </a>
-          </div>
-        </section>
-        <section>
-          <div className="contact-method">
-            <span className="icon alt fa-check"></span>
-            <h3>アート・オブ・オネスティ</h3>
-            <a
-              href="https://docs.google.com/forms/d/1_xtAAqH0EcOt7rvVp-VzIw4K0JtKBWeYLeEch6X1Ctc/viewform?ts=600bc83c&edit_requested=true"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              お申し込みフォームはコチラ
-            </a>
-          </div>
-        </section>
-        <section>
-          <div className="contact-method">
-            <span className="icon alt fa-question"></span>
-            <h3>お問い合わせ</h3>
-            <a
-              href="https://docs.google.com/forms/d/1EGPTNGNE50FSB0XaVHRc2NzBz9HxuTlNUwthtP68Xg4/viewform?edit_requested=true"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              お問い合わせフォームはコチラ
+              エントリーはこちら 👈
             </a>
             <br />
             <br />
             <p>
-              ＊自動返信・確定メールが届かない場合
+              ※定員に達し次第、以降はキャンセル待ちとなります。
+            </p>
+          </div>
+
+
+        </section>
+
+        <section>
+          <div className="contact-method">
+            <span className="icon alt fa-question"></span>
+            <h3>お問い合わせ</h3>
+
+
+            <p>
+              ✉️ yoram26.nvc.japan☆gmail.com
               <br />
-              email:　sakonakama☆gmail.com （←☆を＠に変えて）
-              <br />
-              までお問合せください。
+
+              ☆を＠に変えてお問合せください。
             </p>
           </div>
         </section>

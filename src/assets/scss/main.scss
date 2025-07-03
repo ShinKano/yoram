@@ -13,26 +13,20 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-@include skel-breakpoints(
-  (
-    // xlarge: '(max-width: 1680px)',
-      large: '(max-width: 1280px)',
+@include skel-breakpoints(( // xlarge: '(max-width: 1680px)',
+    large: '(max-width: 1280px)',
     medium: '(max-width: 980px)',
     small: '(max-width: 736px)',
     xsmall: '(max-width: 480px)',
     xxsmall: '(max-width: 360px)'
-  )
-);
+  ));
 
-@include skel-layout(
-  (
-    reset: 'full',
+@include skel-layout((reset: 'full',
     boxModel: 'border',
-  )
-);
+  ));
 
 @mixin inner {
-  > .inner {
+  >.inner {
     @include padding(4em, 0);
     margin: 0 auto;
     max-width: _size(inner);
@@ -93,4 +87,81 @@ p {
   padding: 12px;
   display: flex;
   justify-content: center;
+}
+
+// モバイルでのテキスト改行対応
+.mobile-break {
+  display: none;
+
+  @include breakpoint(small) {
+    display: block;
+  }
+}
+
+.right {
+  text-align: right;
+}
+
+.profile-message {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2em;
+  border-radius: 15px;
+
+  p {
+    margin-bottom: 1em;
+
+    &:last-child {
+      margin-bottom: 0;
+      font-size: 1.1em;
+    }
+  }
+}
+
+// プロフィールセクションのスタイル
+.profile-section {
+
+
+  .profile-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 3em;
+    margin-top: 2em;
+
+    @include breakpoint(medium) {
+      flex-direction: column;
+      gap: 2em;
+    }
+  }
+
+  .profile-image {
+    flex: 0 0 320px;
+
+    @include breakpoint(medium) {
+      flex: none;
+      align-self: center;
+      max-width: 250px;
+    }
+
+    @include breakpoint(small) {
+      max-width: 200px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+      object-fit: cover;
+      aspect-ratio: 1;
+    }
+  }
+
+  .profile-name {
+    font-weight: 600;
+    text-align: center;
+  }
+
+
+
 }
