@@ -17,13 +17,14 @@ const Invitation = props => (
       <section id="one">
         <div className="inner">
           <header className="major">
-            <h1>お誘いに代えて</h1>
+            <h1>オーガナイザーチームから</h1>
           </header>
           <span className="image main">
-            <img src={pic15} alt="沖縄の道" />
+            <img src={pic15} alt="沖縄の道" style={{ borderRadius: '16px' }} />
           </span>
           <p>
-            ヨラムの沖縄リトリート及び横浜２daysワークショップにご関心をお持ちの、この文章を読んでいただいている皆さま、ようこそ！御覧いただき有難うございます。
+            私たちは、NVCを共に学び、共に探求してきた仲間たちでもあり、
+            それぞれがこのプロジェクトに、心からの想いと献身を込めて取り組んでいます。
           </p>
           <section>
             <h3>山畑久江（ちゃこ）</h3>

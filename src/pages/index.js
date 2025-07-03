@@ -10,7 +10,8 @@ import pic03 from '../assets/images/pic03.jpg';
 import pic04 from '../assets/images/pic04.jpg';
 import pic05 from '../assets/images/pic05.jpg';
 import pic17 from '../assets/images/pic17.jpg';
-import yoramProfile from '../assets/images/yoram-profile.jpg';
+import pic16 from '../assets/images/pic16.jpg';
+import yoramProfile from '../assets/images/profile01.png';
 import { SpanBlock } from '../utils/components';
 
 class HomeIndex extends React.Component {
@@ -18,7 +19,7 @@ class HomeIndex extends React.Component {
     return (
       <Layout>
         <Helmet
-          title="Yoram Japan 2021"
+          title="Yoram Japan 2026"
           meta={[
             { name: 'description', content: 'Sample' },
             { name: 'keywords', content: 'sample, something' },
@@ -31,12 +32,13 @@ class HomeIndex extends React.Component {
           <section id="two">
             <div className="inner">
               <div className="covid-19">
-                本イベントはオンライン開催が決定いたしました。詳細については各ページをご覧ください。
+                2026年4月 待望のワークショップ＆リトリートを開催予定です！（通訳付き）
               </div>
               <header className="major">
                 <h2>
-                  <span style={{ fontSize: '16px' }}>CNVCトレーナー</span>
-                  ヨラムが初来日！
+                  <span style={{ fontSize: '16px' }}>CNVC認定トレーナー </span>
+                  <br className="mobile-break" />
+                  ヨラム・モセンゾン <br className="mobile-break" />ついに日本初来日！
                 </h2>
               </header>
               <p>
@@ -82,36 +84,47 @@ class HomeIndex extends React.Component {
 
               </div>
               <div className="profile-message">
-                <p>本ワークショップは、テーマ別に<strong>3つのプログラム</strong>で構成されています。ご関心やご予定にあわせて、<strong>単発参加／複数参加／通し参加</strong>が可能です。</p>
                 <p>ヨラムの在り方とNVCの本質に触れるトータルの9日間は、ただNVCを「学ぶ」だけでなく、<strong>「対立を通して人とつながる」ことの本質にふれる旅</strong>となることでしょう。</p>
                 <p><strong>皆さんのご参加を、心よりお待ちしています。</strong></p>
               </div>
             </div>
           </section>
+
           <section id="one" className="tiles">
             <article style={{ backgroundImage: `url(${pic01})` }}>
               <header className="major">
-                <h3>The Street Giraffe</h3>
-                <h4>7月31日・8月1日</h4>
-                <p>ストリートジラフ</p>
-                <p>誠実さと共感を磨く</p>
+                <h3>Connecting in Conflict</h3>
+                <h4>4月11日・12日（2026年）</h4>
+                <p>対立がつながりに変わるとき</p>
+                <p>共感と正直さが交わる場で</p>
               </header>
               <Link to="/tokyo" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic02})` }}>
               <header className="major">
-                <h3>The Art of Honesty</h3>
-                <h4>7月22日 ~ 7月25日</h4>
-                <p>アート・オブ・オネスティ</p>
+                <h3>Radical Honesty</h3>
+                <h4>4月17日 ~ 19日（2026年）</h4>
+                <p>基礎編・沖縄</p>
                 <p>
-                  正直であろうとするときに<SpanBlock>起こるジレンマ</SpanBlock>
+                  自分も相手も、誰も傷つけることなく<SpanBlock>正直で在り続けるために</SpanBlock>
                 </p>
               </header>
               <Link to="/okinawa" className="link primary"></Link>
             </article>
+            <article style={{ backgroundImage: `url(${pic17})` }}>
+              <header className="major">
+                <h3>NVC Mediation</h3>
+                <h4>4月21日 ~ 24日（2026年）</h4>
+                <p>応用編・沖縄</p>
+                <p>
+                  対立の中に、<SpanBlock>つながりの種を見つける</SpanBlock>
+                </p>
+              </header>
+              <Link to="/okinawa-2" className="link primary"></Link>
+            </article>
             <article style={{ backgroundImage: `url(${pic03})` }}>
               <header className="major">
-                <h3>お誘いに代えて</h3>
+                <h3>オーガナイザーチームから</h3>
               </header>
               <Link to="/invitation" className="link primary"></Link>
             </article>

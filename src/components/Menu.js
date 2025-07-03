@@ -18,17 +18,17 @@ const Menu = props => (
         </li>
         <li>
           <Link onClick={props.onToggleMenu} to="/okinawa">
-            アート・オブ・オネスティ
+            沖縄・基礎編
           </Link>
         </li>
         <li>
-          <Link onClick={props.onToggleMenu} to="/yokohama">
-            ストリートジラフ
+          <Link onClick={props.onToggleMenu} to="/okinawa-2">
+            沖縄・応用編
           </Link>
         </li>
         <li>
           <Link onClick={props.onToggleMenu} to="/invitation">
-            お誘い文に代えて
+            オーガナイザーチームから
           </Link>
         </li>
         {/* <li>

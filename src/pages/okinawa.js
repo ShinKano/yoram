@@ -14,21 +14,21 @@ import { SpanBlock } from '../utils/components';
 const Landing = props => (
   <Layout>
     <Helmet>
-      <title>The Art of Honesty | Yoram Japan 2021</title>
-      <meta name="The Art of Honesty" content="The Art of Honesty" />
+      <title>Radical Honesty | Yoram Japan 2026</title>
+      <meta name="Radical Honesty" content="Radical Honesty" />
     </Helmet>
 
     <BannerLanding
-      title="The Art of Honesty"
-      desc1="アート・オブ・オネスティ"
-      desc2="正直であろうとするときに起こるジレンマ"
+      title="Radical Honesty"
+      desc1="沖縄・基礎編　"
+      desc2="自分も相手も、誰も傷つけることなく正直で在り続けるために"
     />
 
     <div id="main">
       <section id="one">
         <div className="inner">
           <header className="major">
-            <h2>7月22日 ~ 7月25日</h2>
+            <h2>4月17日 (木) 〜 19日 (土)</h2>
           </header>
 
           <h4>
@@ -67,28 +67,17 @@ const Landing = props => (
           </Link>
           <div className="content">
             <div className="inner">
-              {/* <header className="major"> */}
-              <h3>正直であろうとする時に起きるジレンマ</h3>
-              {/* </header> */}
-              <p>
-                人間関係の中でこう考えることがよくあるんだ。
-                <br />
-                「これを言うべきだろうか、それとも言わずにいるべきか」
-                <br />
-                「正直であるべきなのか、控えるべきか」
-                <br />
-                <br />
-                このようなジレンマは次の核となるチャレンジを表している：
-                どうすれば人々とフルに共にいられるだろうか。もし自分の全部をさらけ出してしまったら、ものすごい対立と痛みが生じてくるだろう。
-                そしてもし自分の中のいくつものパーツを隠してしまったら、本当にそこにいることにはならないだろう。
-              </p>
-              {/* <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn more
-                  </Link>
-                </li>
-              </ul> */}
+              <header className="major">
+                <h3>ワークショップで探求すること</h3>
+              </header>
+              <ul>
+                <li>自分の本音を、責めず・抑えず・投げつけずに表現する</li>
+                <li>「NO」と言っても関係を壊さない伝え方</li>
+                <li>相手の反応に引きずられず、自分の明晰さを保つ</li>
+                <li>傷つけずに、境界線を引く勇気</li>
+                <li>共感と率直さを同時に育てる対話の練習</li>
+                <li>正直さが信頼と親密さを育むプロセス  ...など</li>
+              </ul>
             </div>
           </div>
         </section>
@@ -152,28 +141,56 @@ const Landing = props => (
       <section id="one">
         <div className="inner">
           <header className="major">
-            <h2>費用について</h2>
+            <h2>参加費について</h2>
           </header>
-          <p>参加費はスライディングスケール料金体系を採用しております。</p>
           <p>
-            受講料の選択は、あなたの収入と自由意志によります。スライディングスケールの背景にある考え方は、私たちは皆、現在の経済状況が異なるため、
-            あなたの経済状況と私たちをサポートしたいという個人的な希望に合うように、柔軟に対応したいと考えています。
+            このワークショップでは、スライディングスケール制（自己選択式の参加費）を採用しています。参加費は、あなたの<strong>現在の経済状況</strong>と、私たちの活動を<strong>どのように応援したいと感じてくださるか</strong>というお気持ちに基づいて、自由にお選びいただけます。
           </p>
           <p>
-            当イベントもConnecting2Lifeの意図をできるだけ反映したいと考え、スライディングスケールを採用しておりますが、
-            日本での開催は通訳やその他の配慮が必要となることからスケールの選択を狭めなければならないことを残念に思っています。
+            この仕組みには、
           </p>
-
+          <ul>
+            <li>「人それぞれ、置かれている経済状況が異なること」</li>
+            <li>「それでも、誰もがこの学びに触れられる場でありたいという願い」</li>
+          </ul>
+          <p>
+            が込められています。どうぞ、<strong>ご自身の状況と心にしっくりくる金額</strong>をお選びください。
+          </p>
+          <h3>🌴 全日程参加（沖縄1＋沖縄2 通し参加）</h3>
           <div className="table-wrapper">
             <table>
               <tbody>
                 <tr>
-                  <td><s>早割料金</s></td>
-                  <td><s>¥85,000〜¥80,000</s></td>
+                  <td>早割（10月30日までのお振込）</td>
+                  <td>107,520円</td>
                 </tr>
                 <tr>
-                  <td>通常料金</td>
-                  <td>¥89,000〜¥85,000</td>
+                  <td>通常</td>
+                  <td>134,000円</td>
+                </tr>
+                <tr>
+                  <td>沖縄在住または29歳以下</td>
+                  <td>80,640円</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>🌺 沖縄・基礎編 のみ参加（前半）</h3>
+          <div className="table-wrapper">
+            <table>
+              <tbody>
+                <tr>
+                  <td>早割（10月30日までのお振込）</td>
+                  <td>57,600円</td>
+                </tr>
+                <tr>
+                  <td>通常</td>
+                  <td>72,000円</td>
+                </tr>
+                <tr>
+                  <td>沖縄在住または29歳以下</td>
+                  <td>43,200円</td>
                 </tr>
               </tbody>
             </table>
@@ -268,9 +285,11 @@ const Landing = props => (
       <section id="one">
         <div className="inner">
           <header className="major">
-            <h2>定員・スケジュール</h2>
+            <h2>開催概要</h2>
           </header>
-          <h4>定員：45名</h4>
+          <h4>会場：うるま市浜比嘉島地域交流拠点施設 HAMACHŪ</h4>
+          <h4>住所：〒904-2315　沖縄県うるま市勝連浜19番地</h4>
+          <h4>定員：30名</h4>
           <div className="table-wrapper">
             <table>
               <thead>
@@ -319,8 +338,14 @@ const Landing = props => (
               </tbody>
             </table>
           </div>
+          <p>
+            <strong>※通訳付き</strong><br />
+            日本語通訳が入りますので、英語に不安がある方もご安心ください。
+          </p>
         </div>
       </section>
     </div>
   </Layout>
 );
+
+export default Landing;
