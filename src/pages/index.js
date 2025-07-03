@@ -98,7 +98,7 @@ class HomeIndex extends React.Component {
                 <p>対立がつながりに変わるとき</p>
                 <p>共感と正直さが交わる場で</p>
               </header>
-              <Link to="/yokohama" className="link primary"></Link>
+              <Link to="/tokyo" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic02})` }}>
               <header className="major">
@@ -135,20 +135,20 @@ class HomeIndex extends React.Component {
               </header>
               <Link to="/videos" className="link primary"></Link>
             </article>
-            <article style={{ backgroundImage: `url(${pic16})` }}>
+            {/* <article style={{ backgroundImage: `url(${pic16})` }}>
               <header className="major">
                 <h3>参加要件</h3>
                 <p>より学びを深めるために</p>
               </header>
               <Link to="/requirements" className="link primary"></Link>
-            </article>
-            <article style={{ backgroundImage: `url(${pic05})` }}>
+            </article> */}
+            {/* <article style={{ backgroundImage: `url(${pic05})` }}>
               <header className="major">
                 <h3>スタッフ</h3>
                 <p>ヨラム招聘チームの紹介</p>
               </header>
               <Link to="/staff" className="link primary"></Link>
-            </article>
+            </article> */}
             <article style={{ backgroundColor: '#f7f7f7', border: '2px solid #666' }}>
               <header className="major">
                 <h3 style={{ color: '#666' }}>2021年アーカイブ</h3>

@@ -98,6 +98,26 @@ p {
   }
 }
 
+.right {
+  text-align: right;
+}
+
+.profile-message {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2em;
+  border-radius: 15px;
+
+  p {
+    margin-bottom: 1em;
+
+    &:last-child {
+      margin-bottom: 0;
+      font-size: 1.1em;
+    }
+  }
+}
+
 // プロフィールセクションのスタイル
 .profile-section {
 
@@ -143,19 +163,4 @@ p {
   }
 
 
-  .profile-message {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    padding: 2em;
-    border-radius: 15px;
-
-    p {
-      margin-bottom: 1em;
-
-      &:last-child {
-        margin-bottom: 0;
-        font-size: 1.1em;
-      }
-    }
-  }
 }

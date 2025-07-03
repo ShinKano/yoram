@@ -12,7 +12,7 @@ const Menu = props => (
           </Link>
         </li>
         <li>
-          <Link onClick={props.onToggleMenu} to="/yokohama">
+          <Link onClick={props.onToggleMenu} to="/tokyo">
             東京・基礎編
           </Link>
         </li>
@@ -31,21 +31,21 @@ const Menu = props => (
             オーガナイザーチームから
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link onClick={props.onToggleMenu} to="/requirements">
             参加要件
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link onClick={props.onToggleMenu} to="/videos">
             動画リンク集
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link onClick={props.onToggleMenu} to="/staff">
             スタッフ
           </Link>
-        </li>
+        </li> */}
       </ul>
       {/* <ul className="actions vertical">
         <li>
