@@ -96,7 +96,7 @@ class HomeIndex extends React.Component {
                 <h3>Connecting in Conflict</h3>
                 <h4>4月11日・12日（2026年）</h4>
                 <p>対立がつながりに変わるとき</p>
-                <p>共感と正直さが交わる場で</p>
+                <p></p>
               </header>
               <Link to="/tokyo" className="link primary"></Link>
             </article>
@@ -117,7 +117,7 @@ class HomeIndex extends React.Component {
                 <h4>4月21日 ~ 24日（2026年）</h4>
                 <p>応用編・沖縄</p>
                 <p>
-                  対立の中に、<SpanBlock>つながりの種を見つける</SpanBlock>
+                  ミディエーション：対立の中に、<SpanBlock>つながりの種を見つける</SpanBlock>
                 </p>
               </header>
               <Link to="/okinawa-2" className="link primary"></Link>
@@ -125,8 +125,24 @@ class HomeIndex extends React.Component {
             <article style={{ backgroundImage: `url(${pic03})` }}>
               <header className="major">
                 <h3>オーガナイザーチームから</h3>
+                <p>皆様へのメッセージ</p>
               </header>
               <Link to="/invitation" className="link primary"></Link>
+            </article>
+
+            <article style={{ backgroundImage: `url(${pic16})` }}>
+              <header className="major">
+                <h3>参加にあたってのお願い</h3>
+                <p>より学びを深めるために</p>
+              </header>
+              <Link to="/requirements" className="link primary"></Link>
+            </article>
+            <article style={{ backgroundImage: `url(${pic05})` }}>
+              <header className="major">
+                <h3>NVCについて</h3>
+                <p>非暴力コミュニケーションとは</p>
+              </header>
+              <Link to="/nvc" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic04})` }}>
               <header className="major">
@@ -135,20 +151,6 @@ class HomeIndex extends React.Component {
               </header>
               <Link to="/videos" className="link primary"></Link>
             </article>
-            {/* <article style={{ backgroundImage: `url(${pic16})` }}>
-              <header className="major">
-                <h3>参加要件</h3>
-                <p>より学びを深めるために</p>
-              </header>
-              <Link to="/requirements" className="link primary"></Link>
-            </article> */}
-            {/* <article style={{ backgroundImage: `url(${pic05})` }}>
-              <header className="major">
-                <h3>スタッフ</h3>
-                <p>ヨラム招聘チームの紹介</p>
-              </header>
-              <Link to="/staff" className="link primary"></Link>
-            </article> */}
             <article style={{ backgroundColor: '#f7f7f7', border: '2px solid #666' }}>
               <header className="major">
                 <h3 style={{ color: '#666' }}>2021年アーカイブ</h3>

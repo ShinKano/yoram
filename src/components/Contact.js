@@ -80,9 +80,6 @@ const Contact = props => (
           </li>
 
         </ol> */}
-        <p>
-          8月31日（日）の時点で定員に満たない場合は、先着順にて受付を継続し、順次お支払い方法をご案内いたします。
-        </p>
       </section>
       <section className="split">
         <section>
@@ -98,9 +95,6 @@ const Contact = props => (
             </a>
             <br />
             <br />
-            <p>
-              ※定員に達し次第、以降はキャンセル待ちとなります。
-            </p>
           </div>
 
 

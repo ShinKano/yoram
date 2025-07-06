@@ -7,8 +7,6 @@ import { SpanBlock } from '../utils/components';
 
 import pic08 from '../assets/images/pic08.jpg';
 import pic12 from '../assets/images/pic12.jpg';
-import pic13 from '../assets/images/pic13.jpg';
-import pic14 from '../assets/images/pic14.jpg';
 
 const Landing = props => (
   <Layout>
@@ -19,8 +17,8 @@ const Landing = props => (
 
     <BannerLanding
       title="Connecting in Conflict"
-      desc1="自分も相手も、誰も傷つけることなく"
-      desc2="正直で在り続けるために"
+      desc1="対立がつながりに変わるとき"
+      desc2=""
     />
 
     <div id="main">

@@ -31,21 +31,21 @@ const Menu = props => (
             オーガナイザーチームから
           </Link>
         </li>
-        {/* <li>
+        <li>
           <Link onClick={props.onToggleMenu} to="/requirements">
-            参加要件
+            参加にあたってのお願い
           </Link>
-        </li> */}
+        </li>
         <li>
           <Link onClick={props.onToggleMenu} to="/videos">
             動画リンク集
           </Link>
         </li>
-        {/* <li>
-          <Link onClick={props.onToggleMenu} to="/staff">
-            スタッフ
+        <li>
+          <Link onClick={props.onToggleMenu} to="/nvc">
+            NVCについて
           </Link>
-        </li> */}
+        </li>
       </ul>
       {/* <ul className="actions vertical">
         <li>
