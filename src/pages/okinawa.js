@@ -27,8 +27,9 @@ const Landing = props => (
     <div id="main">
       <section id="one">
         <div className="inner">
+          <span>2026年</span>
           <header className="major">
-            <h2>4月17日 (木) 〜 19日 (土)</h2>
+            <h2>4月17日 (金) 〜 19日 (日)</h2>
           </header>
 
           <h4>
@@ -275,7 +276,7 @@ const Landing = props => (
               </thead>
               <tbody>
                 <tr>
-                  <td>4/17（木）</td>
+                  <td>4/17（金）</td>
                   <td>13:30</td>
                   <td>集合</td>
                 </tr>
@@ -285,12 +286,12 @@ const Landing = props => (
                   <td>開始</td>
                 </tr>
                 <tr>
-                  <td>4/18（金）</td>
+                  <td>4/18（土）</td>
                   <td>終日</td>
                   <td>ワークショップ</td>
                 </tr>
                 <tr>
-                  <td>4/19（土）</td>
+                  <td>4/19（日）</td>
                   <td>16:00</td>
                   <td>解散</td>
                 </tr>

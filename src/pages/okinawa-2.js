@@ -27,6 +27,7 @@ const Landing = props => (
     <div id="main">
       <section id="one">
         <div className="inner">
+          <span>2026年</span>
           <header className="major">
             <h2>4月21日 (火) 〜 24日 (金)</h2>
           </header>
