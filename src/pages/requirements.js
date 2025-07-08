@@ -12,10 +12,10 @@ import pic16 from '../assets/images/pic16.jpg';
 const Requirements = props => (
   <Layout>
     <Helmet>
-      <title>Requirements | Yoram Japan 2021</title>
+      <title>Requirements | Yoram Japan 2026</title>
       <meta
-        name="Requirements | Yoram Japan 2021"
-        content="Requirements | Yoram Japan 2021"
+        name="Requirements | Yoram Japan 2026"
+        content="Requirements | Yoram Japan 2026"
       />
     </Helmet>
 

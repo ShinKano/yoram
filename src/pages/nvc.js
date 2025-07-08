@@ -9,7 +9,7 @@ import yoram01 from '../assets/images/yoram01.webp';
 const Elements = props => (
   <Layout>
     <Helmet>
-      <title>Staff | Yoram Japan 2021</title>
+      <title>Staff | Yoram Japan 2026</title>
       <meta name="description" content="Elements Page" />
     </Helmet>
 

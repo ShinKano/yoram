@@ -12,7 +12,7 @@ import video04 from '../assets/images/video04.png';
 const Videos = props => (
   <Layout>
     <Helmet>
-      <title>Videos | Yoram Japan 2021</title>
+      <title>Videos | Yoram Japan 2026</title>
       <meta name="description" content="Generic Page" />
     </Helmet>
 

@@ -11,8 +11,8 @@ const Requirements = props => (
     <Helmet>
       <title>Requirements 2021 アーカイブ | Yoram Japan</title>
       <meta
-        name="Requirements | Yoram Japan 2021"
-        content="Requirements | Yoram Japan 2021"
+        name="Requirements | Yoram Japan 2021 アーカイブ"
+        content="Requirements | Yoram Japan 2021 アーカイブ"
       />
     </Helmet>
 

@@ -9,7 +9,7 @@ import pic15 from '../assets/images/pic15.jpg';
 const Invitation = props => (
   <Layout>
     <Helmet>
-      <title>Invitation | Yoram Japan 2021</title>
+      <title>Invitation | Yoram Japan 2026</title>
       <meta name="description" content="Generic Page" />
     </Helmet>
 
