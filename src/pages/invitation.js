@@ -27,7 +27,7 @@ const Invitation = props => (
             それぞれがこのプロジェクトに、心からの想いと献身を込めて取り組んでいます。
           </p>
           <section>
-            <h3>龍村ゆかり（るりら）<br className="mobile-break" />ＣＮＶＣ認定トレーナー</h3>
+            <h3>龍村ゆかり（るりら）<br className="mobile-break" /><span style={{ fontSize: '14px' }}>ＣＮＶＣ認定トレーナー</span></h3>
             <p>
               2021年。CNVC認定トレーナー候補生として3年目を迎えていた私は、ヨラムに一通のメールを送りました。
               <br />
@@ -70,7 +70,7 @@ const Invitation = props => (
 
 
           <section>
-            <h3>中村真紀（まき）<br className="mobile-break" />ＣＮＶＣ認定トレーナー</h3>
+            <h3>中村真紀（まき）<br className="mobile-break" /><span style={{ fontSize: '14px' }}>ＣＮＶＣ認定トレーナー</span></h3>
             <div className="grid-wrapper">
               <div className="col-6">
                 <p>
@@ -105,7 +105,7 @@ const Invitation = props => (
 
           <br />
           <section>
-            <h3>今井麻希子（こまき）<br className="mobile-break" />ＣＮＶＣ認定トレーナー</h3>
+            <h3>今井麻希子（こまき）<br className="mobile-break" /><span style={{ fontSize: '14px' }}>ＣＮＶＣ認定トレーナー</span></h3>
             <p>
               ヨラムの存在に触れる機会を与えてくれたのは、彼の伝えるNVCに魅了され、彼と連絡をとり、日本語字幕をつけて日本の人たちに届けてくれた仲間聡子さんでした。実際にその動画に触れて、彼の言葉やたちふるまいから感じるNVCの持つ可能性への信頼、パワーに魅了された日のことを、とても鮮やかに覚えています。
               <br />
@@ -115,7 +115,7 @@ const Invitation = props => (
 
           <br />
           <section>
-            <h3>山畑久江（ちゃこ）<br className="mobile-break" />ＣＮＶＣ認定トレーナー候補生</h3>
+            <h3>山畑久江（ちゃこ）<br className="mobile-break" /><span style={{ fontSize: '14px' }}>ＣＮＶＣ認定トレーナー候補生</span></h3>
             <p>
               このたび、CNVCトレーナー ヨラム・モセンゾン氏をお迎えし、特別ワークショップを開催するにあたり、オーガナイザーをすることに不安より喜びがまさっております。
               <br />
