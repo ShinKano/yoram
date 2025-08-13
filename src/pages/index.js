@@ -93,8 +93,8 @@ class HomeIndex extends React.Component {
           <section id="social" className="social-section">
             <div className="inner">
               <p className="social-intro">
-                最新情報はFacebookおよびInstagramで発信しています。<br />
-                ぜひフォローして最新情報をチェックしてください！
+                最新情報はFacebookおよび<br className="mobile-break" />Instagramで発信しています。<br />
+                ぜひフォローして最新情報を<br className="mobile-break" />チェックしてください！
               </p>
               <div className="social-links">
                 <a
