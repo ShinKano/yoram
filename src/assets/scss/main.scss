@@ -262,3 +262,160 @@ p {
     }
   }
 }
+
+// invitation.jsページのスタイル
+.invitation-page {
+  .page-header {
+    text-align: center;
+    margin-bottom: 3em;
+
+    h2 {
+      font-size: 2.5em;
+      margin-bottom: 0.5em;
+      color: white !important;
+      font-weight: 600;
+    }
+
+    .header-underline {
+      width: 80px;
+      height: 4px;
+      background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+      margin: 0 auto;
+      border-radius: 2px;
+    }
+  }
+
+  .hero-section {
+    margin-bottom: 4em;
+
+    .hero-image {
+      img {
+        border-radius: 16px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      }
+    }
+
+    .intro-text {
+      text-align: center;
+      margin-top: 2em;
+
+      p {
+        font-size: 1.1em;
+        line-height: 1.8;
+        color: rgba(255, 255, 255, 0.9) !important;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .organizers-grid {
+    section {
+      background: white;
+      padding: 2.5em;
+      margin-bottom: 2em;
+      border-radius: 16px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+      border: 1px solid #f0f0f0;
+
+      h3 {
+        color: #333;
+        margin-bottom: 1.5em;
+        padding-bottom: 1em;
+        border-bottom: 2px solid #f0f0f0;
+
+        span {
+          color: #666;
+          font-weight: 400;
+        }
+      }
+
+      p {
+        line-height: 1.8;
+        color: #555;
+        text-align: justify;
+
+        br {
+          margin: 0.5em 0;
+        }
+      }
+
+      .grid-wrapper {
+        .col-6 {
+          img {
+            margin-top: 1em;
+          }
+        }
+      }
+    }
+  }
+}
+
+// 通訳セクションのスタイル
+.interpreter-section {
+  margin-top: 4em;
+  padding: 2.5em 2em;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 2.5em;
+
+    h3 {
+      color: white !important;
+      font-size: 1.6em;
+      font-weight: 400;
+      letter-spacing: 0.1em;
+      margin-bottom: 0.5em;
+      position: relative;
+      display: inline-block;
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60px;
+        height: 2px;
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent);
+      }
+    }
+  }
+
+  .interpreter-grid {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    flex-wrap: wrap;
+
+    @include breakpoint(small) {
+      gap: 3em;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .interpreter-card {
+    text-align: center;
+
+    .location {
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 0.85em;
+      text-transform: uppercase;
+      letter-spacing: 0.25em;
+      margin-bottom: 0.6em;
+      font-weight: 500;
+    }
+
+    .names {
+      color: white;
+      font-size: 1.15em;
+      margin: 0;
+      font-weight: 300;
+      line-height: 1.5;
+    }
+  }
+}
