@@ -147,7 +147,7 @@ class HomeIndex extends React.Component {
             <article style={{ backgroundImage: `url(${pic04})` }}>
               <header className="major">
                 <h3>動画リンク集</h3>
-                <p>ヨラムのWS動画（日本語約付）</p>
+                <p>ヨラムのWS動画（日本語訳付）</p>
               </header>
               <Link to="/videos" className="link primary"></Link>
             </article>
