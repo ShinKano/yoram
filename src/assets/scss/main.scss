@@ -164,3 +164,101 @@ p {
 
 
 }
+
+// バナーのボタンモバイル対応
+#banner {
+  .actions {
+    @include breakpoint(small) {
+      li {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 1em;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        a {
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+// SNSセクションのスタイル
+.social-section {
+  background: #f7f9fc;
+  padding: 4em 0;
+  text-align: center;
+
+  @include breakpoint(small) {
+    padding: 3em 0;
+  }
+
+  .social-intro {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 2em;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+
+    @include breakpoint(small) {
+      gap: 1em;
+    }
+  }
+
+  .social-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    padding: 1em 2em;
+    min-width: 200px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+    @include breakpoint(small) {
+      min-width: 160px;
+    }
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    .icon {
+      font-size: 1.5em;
+    }
+
+    &.facebook {
+      background: #1877f2;
+      border: 2px solid #1877f2;
+
+      &:hover {
+        background: #0b5eb8;
+        border-color: #0b5eb8;
+      }
+    }
+
+    &.instagram {
+      background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+      border: 2px solid transparent;
+
+      &:hover {
+        background: linear-gradient(45deg, #d67e2c 0%, #c85530 25%, #b51f39 50%, #a31956 75%, #9e1172 100%);
+      }
+    }
+  }
+}

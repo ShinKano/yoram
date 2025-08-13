@@ -90,6 +90,35 @@ class HomeIndex extends React.Component {
             </div>
           </section>
 
+          <section id="social" className="social-section">
+            <div className="inner">
+              <p className="social-intro">
+                最新情報はFacebookおよびInstagramで発信しています。<br />
+                ぜひフォローして最新情報をチェックしてください！
+              </p>
+              <div className="social-links">
+                <a
+                  href="https://www.facebook.com/profile.php?id=61578380867775&mibextid=wwXIfr&rdid=kIwzMYvQpJYkdSzQ&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19hcVmJ2pv%2F%3Fmibextid%3DwwXIfr#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="social-button facebook"
+                >
+                  <span className="icon fa-facebook"></span>
+                  <span>Facebook</span>
+                </a>
+                <a
+                  href="https://www.instagram.com/yoram26.nvc.japan/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="social-button instagram"
+                >
+                  <span className="icon fa-instagram"></span>
+                  <span>Instagram</span>
+                </a>
+              </div>
+            </div>
+          </section>
+
           <section id="one" className="tiles">
             <article style={{ backgroundImage: `url(${pic01})` }}>
               <header className="major">

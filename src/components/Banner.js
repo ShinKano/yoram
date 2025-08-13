@@ -22,6 +22,11 @@ const Banner = props => (
               参加お申し込み
             </a>
           </li>
+          <li>
+            <a href="#social" className="button next scrolly">
+              最新情報はこちら
+            </a>
+          </li>
         </ul>
       </div>
     </div>
