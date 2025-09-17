@@ -18,7 +18,11 @@ const Banner = props => (
         </p>
         <ul className="actions">
           <li>
-            <a href="#contact" className="button next scrolly">
+            <a
+              href="https://gaiacompass.net/yoram-in-japan-2026/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="button next scrolly">
               参加お申し込み
             </a>
           </li>
